@@ -7,19 +7,17 @@
 //
 
 import UIKit
+import SciChart
 
 class ViewController: UIViewController {
-
+    var chartSurfaceView = ChartView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        chartSurfaceView.frame = view.bounds
+        chartSurfaceView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        chartSurfaceView.translatesAutoresizingMaskIntoConstraints = true
+        view.addSubview(chartSurfaceView)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
