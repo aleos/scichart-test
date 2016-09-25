@@ -15,6 +15,7 @@
 		571135311D98173E006D15F0 /* SciChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711352B1D980FDE006D15F0 /* SciChart.framework */; };
 		571135321D98173E006D15F0 /* SciChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5711352B1D980FDE006D15F0 /* SciChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		571135361D9823FF006D15F0 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571135351D9823FF006D15F0 /* ChartView.swift */; };
+		571135381D98552E006D15F0 /* SCIGenericWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571135371D98552E006D15F0 /* SCIGenericWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		571135241D980E18006D15F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5711352B1D980FDE006D15F0 /* SciChart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SciChart.framework; sourceTree = "<group>"; };
 		571135351D9823FF006D15F0 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		571135371D98552E006D15F0 /* SCIGenericWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCIGenericWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		5711352A1D980FDE006D15F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				571135371D98552E006D15F0 /* SCIGenericWrapper.swift */,
 				5711352B1D980FDE006D15F0 /* SciChart.framework */,
 			);
 			path = Frameworks;
@@ -187,6 +190,7 @@
 				5711351B1D980E18006D15F0 /* ViewController.swift in Sources */,
 				571135191D980E18006D15F0 /* AppDelegate.swift in Sources */,
 				571135361D9823FF006D15F0 /* ChartView.swift in Sources */,
+				571135381D98552E006D15F0 /* SCIGenericWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
