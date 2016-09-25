@@ -10,7 +10,8 @@ import UIKit
 import SciChart
 
 class ViewController: UIViewController {
-    var chartSurfaceView = ChartView()
+    private var chartSurfaceView = ChartView()
+    private var dataGenerator = ChartDataGenerator(startValue: 1000, maxValueDelta: 1)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,10 @@ class ViewController: UIViewController {
         chartSurfaceView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         chartSurfaceView.translatesAutoresizingMaskIntoConstraints = true
         view.addSubview(chartSurfaceView)
+        
+        dataGenerator.start(every: 0.2) { [weak self] time, value in
+            self?.chartSurfaceView.addValue(time: time, value: value)
+        }
     }
 }
 

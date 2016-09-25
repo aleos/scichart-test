@@ -10,10 +10,14 @@ import UIKit
 import SciChart
 
 class ChartView: SCIChartSurfaceView {
-    let rolloverModifierName = "RolloverModifier"
+    private static let rolloverModifierName = "RolloverModifier"
+    private static let extendZoomModifierName = "ZoomExtentsModifier"
+    private static let pinchZoomModifierName = "PinchZoomModifier"
     private struct Axis {
         static let xAxisID = "xAxis"
         static let yAxisID = "yAxis"
+        static let xAxisDragModifierName = "xAxisDragModifierName"
+        static let yAxisDragModifierName = "yAxisDragModifierName"
     }
     private struct SCSFontsName {
         static let defaultFontName = "Helvetica"
@@ -58,7 +62,20 @@ class ChartView: SCIChartSurfaceView {
         return ellipsePointMarker
     }()
     
-    var chartSurface: SCIChartSurface!
+    private var chartSurface: SCIChartSurface!
+    private let dataSeries = SCIXyDataSeries(xType: .dateTime, yType: .float)!
+    private let lineAnnotation: SCILineAnnotation = {
+        let lineAnnotation = SCILineAnnotation()
+        lineAnnotation.xAxisId = Axis.xAxisID
+        lineAnnotation.yAxisId = Axis.yAxisID
+        lineAnnotation.coordMode = .relativeX
+        lineAnnotation.xStart = SCIGeneric(0)
+        lineAnnotation.yStart = SCIGeneric(0)
+        lineAnnotation.xEnd = SCIGeneric(1)
+        lineAnnotation.yEnd = SCIGeneric(0)
+        lineAnnotation.style.linePen = SCIPenSolid(colorCode: 0xCFFFFFFF, width: 1)
+        return lineAnnotation
+    }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -69,6 +86,29 @@ class ChartView: SCIChartSurfaceView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    func addValue(time: TimeInterval, value: Float) {
+        dataSeries.appendX(SCIGeneric(time), y: SCIGeneric(value))
+        
+        lineAnnotation.yStart = SCIGeneric(value)
+        lineAnnotation.yEnd = SCIGeneric(value)
+        chartSurface.annotation = lineAnnotation
+        
+        chartSurface.invalidateElement()
+    }
+    
+    private func addSeries() {
+        dataSeries.dataDistributionCalculator = SCIUserDefinedDistributionCalculator()
+        let renderSeries = SCIFastMountainRenderableSeries()
+        renderSeries.dataSeries = dataSeries
+        renderSeries.xAxisId = Axis.xAxisID
+        renderSeries.yAxisId = Axis.yAxisID
+        renderSeries.style.areaBrush = SCIBrushSolid(colorCode: 0x5FBB0000)
+        renderSeries.style.borderPen = SCIPenSolid(colorCode: 0xBFFF0000, width: 1)
+        chartSurface.attach(renderSeries)
+        chartSurface.invalidateElement()
+        chartSurface.yAxis.zoom(from: 900, to: 1000)
+    }
 
     private func configureChartSurface() {
         chartSurface = SCIChartSurface(view: self)
@@ -78,42 +118,43 @@ class ChartView: SCIChartSurfaceView {
         let axisX = SCIDateTimeAxis()
         axisX.axisId = Axis.xAxisID
         axisX.style = ChartView.defaultAxisStyle
+        axisX.autoRange = .once
+        axisX.animatedChangeDuration = 0.2
+        axisX.animateVisibleRangeChanges = true
         chartSurface.attach(axisX, isXAxis: true)
         
         let axisY = SCINumericAxis()
         axisY.axisId = Axis.yAxisID
         axisY.style = ChartView.defaultAxisStyle
+        axisY.autoRange = .always
+        axisY.animatedChangeDuration = 0.2
+        axisY.animateVisibleRangeChanges = true
         chartSurface.attach(axisY, isXAxis: false)
         
-        let rolloverModifier = SCIRolloverModifier()
-        rolloverModifier.modifierName = rolloverModifierName
-        rolloverModifier.style.tooltipSize = CGSize(width: 200, height: CGFloat.nan)
-        rolloverModifier.style.pointMarker = ChartView.ellipsePointMarker
-        chartSurface.chartModifier = rolloverModifier
+        addDefaultModifiers()
     }
     
-    private func addSeries() {
-        let dataCount = 20
-        let dataSeries = SCIXyDataSeries(xType: .dateTime, yType: .float)!
-//        let now = Date().timeIntervalSince1970
-        for i in 0..<dataCount {
-            let x = Double(i) //10 * Float(i) / Float(dataCount)
-            let y = arc4random_uniform(UInt32(dataCount))
-            var xValue = x
-            var yValue = Float(y)
-            dataSeries.appendX(SCI_constructGenericTypeWithInfo(&xValue, .double), y: SCI_constructGenericTypeWithInfo(&yValue, .float))
-        }
-        dataSeries.dataDistributionCalculator = SCIUserDefinedDistributionCalculator()
-        let renderSeries = SCIFastMountainRenderableSeries()
-        renderSeries.dataSeries = dataSeries
-        renderSeries.xAxisId = Axis.xAxisID
-        renderSeries.yAxisId = Axis.yAxisID
-        renderSeries.style.areaBrush = SCIBrushSolid(colorCode: 0x5FBB0000)
-        renderSeries.style.borderPen = SCIPenSolid(colorCode: 0xBFFF0000, width: 1)
-//        renderSeries.style.pointMarker = ChartView.ellipsePointMarker
-//        renderSeries.style.drawPointMarkers = true
-//        renderSeries.style.linePen = SCIPenSolid(colorCode: 0xFF99EE99, width: 0.7)
-        chartSurface.attach(renderSeries)
-        chartSurface.invalidateElement()
+    private func addDefaultModifiers() {
+        let xAxisDragmodifier = SCIXAxisDragModifier()
+        xAxisDragmodifier.modifierName = Axis.xAxisDragModifierName
+        xAxisDragmodifier.axisId = Axis.xAxisID
+        xAxisDragmodifier.dragMode = .scale
+        xAxisDragmodifier.clipModeX = .none
+        
+        let yAxisDragmodifier = SCIYAxisDragModifier()
+        yAxisDragmodifier.modifierName = Axis.yAxisDragModifierName
+        yAxisDragmodifier.axisId = Axis.yAxisID
+        yAxisDragmodifier.dragMode = .pan
+        
+        let panModifier = SCIZoomPanModifier()
+        panModifier.xyDirection = .xyDirection
+        panModifier.clipModeX = .clipAtMin
+        
+        let pinchZoomModifier = SCIPinchZoomModifier()
+        pinchZoomModifier.xyDirection = .xyDirection
+        pinchZoomModifier.modifierName = ChartView.pinchZoomModifierName
+        let groupModifier = SCIModifierGroup(childModifiers: [xAxisDragmodifier, yAxisDragmodifier, pinchZoomModifier, panModifier])
+        
+        chartSurface.chartModifier = groupModifier
     }
 }

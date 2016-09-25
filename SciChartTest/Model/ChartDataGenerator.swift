@@ -20,7 +20,7 @@ class ChartDataGenerator {
         self.maxValueDelta = maxValueDelta
     }
     
-    func start(every deltaTime: TimeInterval = 0.1, newValue: @escaping (_ time: TimeInterval, _ value: Float) -> Void) {
+    func start(every deltaTime: TimeInterval = 0.2, newValue: @escaping (_ time: TimeInterval, _ value: Float) -> Void) {
          timer = Timer.scheduledTimer(withTimeInterval: deltaTime, repeats: true) { [weak self] timer in
             guard let `self` = self else { return }
             newValue(self.lastTime, self.lastValue)
