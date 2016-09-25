@@ -12,6 +12,7 @@
 		5711351E1D980E18006D15F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5711351C1D980E18006D15F0 /* Main.storyboard */; };
 		571135201D980E18006D15F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5711351F1D980E18006D15F0 /* Assets.xcassets */; };
 		571135231D980E18006D15F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571135211D980E18006D15F0 /* LaunchScreen.storyboard */; };
+		5711352C1D980FDE006D15F0 /* SciChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711352B1D980FDE006D15F0 /* SciChart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5711351F1D980E18006D15F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		571135221D980E18006D15F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		571135241D980E18006D15F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5711352B1D980FDE006D15F0 /* SciChart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SciChart.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5711352C1D980FDE006D15F0 /* SciChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +57,31 @@
 		571135171D980E18006D15F0 /* SciChartTest */ = {
 			isa = PBXGroup;
 			children = (
-				571135181D980E18006D15F0 /* AppDelegate.swift */,
+				5711352D1D980FF6006D15F0 /* Resources */,
+				5711352A1D980FDE006D15F0 /* Frameworks */,
 				5711351A1D980E18006D15F0 /* ViewController.swift */,
 				5711351C1D980E18006D15F0 /* Main.storyboard */,
+			);
+			path = SciChartTest;
+			sourceTree = "<group>";
+		};
+		5711352A1D980FDE006D15F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5711352B1D980FDE006D15F0 /* SciChart.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		5711352D1D980FF6006D15F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				571135181D980E18006D15F0 /* AppDelegate.swift */,
 				5711351F1D980E18006D15F0 /* Assets.xcassets */,
 				571135211D980E18006D15F0 /* LaunchScreen.storyboard */,
 				571135241D980E18006D15F0 /* Info.plist */,
 			);
-			path = SciChartTest;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +280,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UZBQ4Q9LW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SciChartTest/Frameworks",
+				);
 				INFOPLIST_FILE = SciChartTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aleos.SciChartTest;
@@ -273,6 +297,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UZBQ4Q9LW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SciChartTest/Frameworks",
+				);
 				INFOPLIST_FILE = SciChartTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aleos.SciChartTest;
@@ -300,6 +328,7 @@
 				571135291D980E18006D15F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
