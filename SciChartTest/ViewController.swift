@@ -11,7 +11,7 @@ import SciChart
 
 class ViewController: UIViewController {
     private var chartSurfaceView = ChartView()
-    private var dataGenerator = ChartDataGenerator(startValue: 1000, maxValueDelta: 1)
+    private var dataGenerator: ChartDataSource = ChartDataGenerator(startValue: 1000, maxValueDelta: 1)
     
     override func viewDidLoad() {
         super.viewDidLoad()
