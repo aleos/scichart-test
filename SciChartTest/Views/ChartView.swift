@@ -10,9 +10,12 @@ import UIKit
 import SciChart
 
 class ChartView: SCIChartSurfaceView {
-    private static let rolloverModifierName = "RolloverModifier"
-    private static let extendZoomModifierName = "ZoomExtentsModifier"
-    private static let pinchZoomModifierName = "PinchZoomModifier"
+    private struct Modifier {
+        static let rolloverModifierName = "RolloverModifier"
+        static let extendZoomModifierName = "ZoomExtentsModifier"
+        static let zoomPanModifierName = "ZoomPanModifier"
+        static let pinchZoomModifierName = "PinchZoomModifier"
+    }
     private struct Axis {
         static let xAxisID = "xAxis"
         static let yAxisID = "yAxis"
@@ -106,8 +109,6 @@ class ChartView: SCIChartSurfaceView {
         renderSeries.style.areaBrush = SCIBrushSolid(colorCode: 0x5FBB0000)
         renderSeries.style.borderPen = SCIPenSolid(colorCode: 0xBFFF0000, width: 1)
         chartSurface.attach(renderSeries)
-        chartSurface.invalidateElement()
-        chartSurface.yAxis.zoom(from: 900, to: 1000)
     }
 
     private func configureChartSurface() {
@@ -118,7 +119,6 @@ class ChartView: SCIChartSurfaceView {
         let axisX = SCIDateTimeAxis()
         axisX.axisId = Axis.xAxisID
         axisX.style = ChartView.defaultAxisStyle
-        axisX.autoRange = .once
         axisX.animatedChangeDuration = 0.2
         axisX.animateVisibleRangeChanges = true
         chartSurface.attach(axisX, isXAxis: true)
@@ -147,12 +147,12 @@ class ChartView: SCIChartSurfaceView {
         yAxisDragmodifier.dragMode = .pan
         
         let panModifier = SCIZoomPanModifier()
+        panModifier.modifierName = Modifier.zoomPanModifierName
         panModifier.xyDirection = .xyDirection
         panModifier.clipModeX = .clipAtMin
         
         let pinchZoomModifier = SCIPinchZoomModifier()
-        pinchZoomModifier.xyDirection = .xyDirection
-        pinchZoomModifier.modifierName = ChartView.pinchZoomModifierName
+        pinchZoomModifier.modifierName = Modifier.pinchZoomModifierName
         let groupModifier = SCIModifierGroup(childModifiers: [xAxisDragmodifier, yAxisDragmodifier, pinchZoomModifier, panModifier])
         
         chartSurface.chartModifier = groupModifier
