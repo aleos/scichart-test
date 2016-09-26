@@ -8,7 +8,12 @@
 
 import Foundation
 
-class ChartDataGenerator {
+protocol ChartDataSource {
+    func start(every deltaTime: TimeInterval, newValue: @escaping (_ time: TimeInterval, _ value: Float) -> Void)
+    func stop()
+}
+
+class ChartDataGenerator: ChartDataSource {
     private var lastTime: TimeInterval = 0
     private var lastValue: Float
     private var maxValueDelta: Float
