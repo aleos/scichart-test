@@ -6,16 +6,19 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
-#import "SCIGestureEventsHandler.h"
+/** \addtogroup ChartModifiers
+ *  @{
+ */
 
 @class SCIAxisCollection;
 @protocol SCIAxis2D;
 @protocol SCIChartSurface;
 
-@protocol SCIChartModifier <NSObject, SCIGestureEventsHandler>
+@protocol SCIChartModifier <NSObject>
 
 @property (nonatomic, weak) id<SCIChartSurface> parentSurface;
 @property (nonatomic) BOOL isAttached;
+@property (nonatomic) BOOL isEnabled;
 @property (nonatomic, copy) NSString *modifierName;
 
 -(id<SCIAxis2D>) xAxis;
@@ -33,3 +36,5 @@
 @property (nonatomic) BOOL autoPassAreaCheck;
 
 @end
+
+/** @}*/

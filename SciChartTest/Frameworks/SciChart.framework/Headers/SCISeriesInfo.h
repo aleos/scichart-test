@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup SeriesInfo
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 #import "SCIGenericType.h"
@@ -23,12 +27,15 @@
     NSString * _seriesName;
     SCIGenericType _xValue;
     SCIGenericType _yValue;
-    SCiDataSeriesType _dataSeriesType;
+    SCIDataSeriesType _dataSeriesType;
     BOOL _isHit;
     int _dataSeriesIndex;
     
     id<SCIPathColor> _seriesColor;
 }
+
+@property (nonatomic) NSNumberFormatter *numberFormatter;
+@property (nonatomic) NSDateFormatter *dateTimeFormatter;
 
 -(instancetype)initWithSeries:(id<SCIRenderableSeries>)series HitTest:(HitTestResult)hitTest;
 
@@ -36,7 +43,7 @@
 -(NSString *) seriesName;
 -(SCIGenericType) xValue;
 -(SCIGenericType) yValue;
--(SCiDataSeriesType) dataSeriesType;
+-(SCIDataSeriesType) dataSeriesType;
 -(BOOL) isHit;
 -(int) dataSeriesIndex;
 
@@ -45,4 +52,8 @@
 
 -(SCITooltipDataView *) createDataSeriesView;
 
+- (NSString*)fortmatterdValueFromSeriesInfo:(SCIGenericType)data forDataType:(SCIDataType)dataType;
+
 @end
+
+/** @}*/

@@ -6,9 +6,14 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Themes
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCICallbackBlock.h"
 #import "SCIAnnotationStyleEnums.h"
+#import "SCIStyle.h"
 
 @protocol SCIPen2D;
 @protocol SCIBrush2D;
@@ -17,9 +22,9 @@
 /*!
  * @abstract SCIBoxAnnotationStyle class
  * @discussion Contains properties for box annotation theming and customization
- * @discussion It signals about properties changes with "styleChanged" block
+ * @see SCIBoxAnnotation
  */
-@interface SCIBoxAnnotationStyle : NSObject <NSCopying>
+@interface SCIBoxAnnotationStyle : NSObject <SCIStyle, NSCopying>
 
 /*!
  * @abstract Point marker that will be displayed on box corners when interaction with annotation started
@@ -38,12 +43,14 @@
 
 /*!
  * @abstract Defines width of box "hit body"
- * @discussion It's distance at which user should tap to select box annotation
+ * @discussion It is maximal distance from box edge at which user can select box annotation by tapping
+ * @discussion The greater value the easier to select box annotation by tapping on it
  */
 @property (nonatomic) double selectRadius;
 /*!
  * @abstract Defines width of box corners' point markers "hit body"
- * @discussion It's distance at which user should tap and pan at box corners to interact with annotation
+ * @discussion It maximal distance from box corners at which user can tap and pan to start interactaction with annotation
+ * @discussion The greater value, the easier will be to resize or move box annotation by dragging it's corners
  */
 @property (nonatomic) double resizeRadius;
 
@@ -52,10 +59,7 @@
  * @see SCIAnnotationLayerMode
  */
 @property (nonatomic) SCIAnnotationLayerMode layer;
-/*!
- * @abstract Block wich is called on every style property change.
- * @discussion It is used for invalidating parent annotation and provoking redraw of annotations and modifiers on style change
- */
-@property (nonatomic, copy) SCIActionBlock styleChanged;
 
 @end
+
+/** @}*/

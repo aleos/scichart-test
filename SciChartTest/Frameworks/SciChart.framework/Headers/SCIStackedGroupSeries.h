@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup RenderableSeries
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIRenderableSeriesBase.h"
 
@@ -18,3 +22,5 @@
 -(void)removeAllSeries;
 
 @end
+
+/** @}*/

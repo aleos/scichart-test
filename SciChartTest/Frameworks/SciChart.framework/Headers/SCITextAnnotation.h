@@ -22,3 +22,5 @@
 @property (nonatomic, copy) SCITextAnnotationStyle * style;
 
 @end
+
+/** @}*/

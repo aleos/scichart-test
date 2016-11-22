@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup PointMarkers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIPointMarker.h"
 
@@ -19,3 +23,5 @@
 @property (nonatomic) float height;
 
 @end
+
+/** @}*/

@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Visuals
+ *  @{
+ */
+
 @protocol SCIRenderContext2D;
 @protocol SCIRenderPassData;
 
@@ -16,3 +20,5 @@
 -(void) prepareForDrawing;
 
 @end
+
+/** @}*/

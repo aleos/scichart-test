@@ -6,9 +6,15 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Visuals
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIChartSurfaceViewBase.h"
 
 @interface SCIChartSurfaceView : SCIChartSurfaceViewBase
 
 @end
+
+/** @}*/

@@ -6,8 +6,13 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Themes
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCICallbackBlock.h"
+#import "SCIStyle.h"
 
 @protocol SCIBrush2D;
 @protocol SCIPen2D;
@@ -15,31 +20,33 @@
 /*!
  * @brief The SCIMountainSeriesStyle class.
  * @discussion Provides styling capabilities for SCIFastMountainRenderableSeries within SciChart.
+ * @see SCIFastMountainRenderableSeries
  */
-@interface SCIMountainSeriesStyle : NSObject <NSCopying>
+@interface SCIMountainSeriesStyle : NSObject <SCIStyle, NSCopying>
 
 /*!
- * @brief The SCIMountainSeriesStyle class' property.
- * @discussion Defines Mountain Area brush.
+ * @brief Defines mountain area fill color
+ * @code
+ * style.areaBrush = SCIBrushSolid(colorCode: 0xFFA0A050)
+ * @encode
+ * @see SCIBrush2D
  */
 @property (nonatomic, strong) id<SCIBrush2D> areaBrush;
 
 /*!
- * @brief The SCIMountainSeriesStyle class' property.
- * @discussion Defines Mountain border pen.
+ * @brief Defines mountain area outline color and width
+ * @code
+ * style.borderPen = SCIPenSolid(colorCode: 0xFFF0F050, width: 1)
+ * @encode
+ * @see SCIPen2D
  */
 @property (nonatomic, strong) id<SCIPen2D> borderPen;
 
 /*!
- * @brief The SCIMountainSeriesStyle class' property.
- * @discussion If true acts like a digital line.
+ * @brief If true mountain area outline will be digital (jagged)
  */
 @property (nonatomic) BOOL isDigitalLine;
 
-/*!
- * @brief The SCIMountainSeriesStyle class' property.
- * @discussion Called whenever MountainSeries style was changed.
- */
-@property (nonatomic, copy) SCIActionBlock styleChanged;
-
 @end
+
+/** @} */

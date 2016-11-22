@@ -15,6 +15,7 @@
 
 -(SCIArrayController *) xValues;
 -(SCIArrayController *) yValues;
+-(SCIArrayController *) indices;
 
 -(SCIArrayController *) y1Values;
 -(SCIArrayController *) y2Values;

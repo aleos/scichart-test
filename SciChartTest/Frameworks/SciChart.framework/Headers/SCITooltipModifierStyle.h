@@ -6,40 +6,54 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Themes
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "SCITooltipModifierStyleBase.h"
 
+/**
+ * @brief SCITooltipModifierStyle class.
+ * @discussion Provides properties for styling the text and appearence of the TooltipMidifier.
+ * @see SCITooltipModifierStyleBase
+ * @see SCITooltipModifier
+ * @see SCIStyle
+ */
 @interface SCITooltipModifierStyle : NSObject <SCITooltipModifierStyleBase>
 
+/**
+ * Changes appearance of targetMarker on the SCITooltipModifier.
+ * <p>You can change style of point marker. Ensure that instance implements SCIPointMarker protocol!</p>
+ * @code
+ * let marker = SCIEllipsePointMarker()
+ * marker.drawBorder = false
+ * marker.fillBrush = SCIBrushSolid(color: UIColor.redColor())
+ * tooltipModifier.style.targetMarker = marker
+ * @endcode
+ * @see SCIPointMarker
+ */
 @property (nonatomic, strong) id<SCIPointMarker> targetMarker;
-@property (nonatomic) float alignmentMargin;
 
+/**
+ * Changes target offset mode of hit test. Default is SCITooltipTargetOffset_Up.
+ * By default hit test point is located above finger, you can change this bahaviour by changing this property
+ * @see SCITooltipTargetOffsetMode
+ */
 @property (nonatomic) SCITooltipTargetOffsetMode targetOffsetMode;
+/**
+ * Changes target offset distance in pixels. By default it is 50.0
+ * If you need to change target offset direction you can change <b>targetOffsetMode</b> property
+ */
 @property (nonatomic) float targetOffsetValue;
+/**
+ * defines starting offset of hit test point. By default it is (0;0)
+ * If you need some custom offset, you can change this property and set targetOffsetMode to SCITooltipTargetOffset_None or targetOffsetValue to 0
+ */
 @property (nonatomic) CGPoint targetCustomOffset;
 
-@property (nonatomic) SCITooltipColorMode colorMode;
-
-@property (nonatomic, copy) SCITextFormattingStyle * headLineStyle;
-@property (nonatomic, copy) SCITextFormattingStyle * dataStyle;
-@property (nonatomic, copy) SCITooltipViewSetupBlock tooltipViewSetup;
-@property (nonatomic) CGSize tooltipSize;
-@property (nonatomic) float contentPadding;
-@property (nonatomic, copy) SCIActionBlock styleChanged;
-@property (nonatomic) SCITooltipViewAlignmentMode tooltipAlignment;
-
-@property (nonatomic, strong) UIColor * tooltipColor;
-@property (nonatomic, strong) UIColor * tooltipBorderColor;
-@property (nonatomic) float tooltipBorderWidth;
-@property (nonatomic) float tooltipCornerRadius;
-
-@property (nonatomic) CGSize tooltipShadowOffset;
-@property (nonatomic) float tooltipShadowRadius;
-@property (nonatomic) float tooltipShadowOpacity;
-
-@property (nonatomic) float tooltipOpacity;
-
-@property (nonatomic) SCIHitTestMode hitTestMode;
-
 @end
+
+
+/** @}*/

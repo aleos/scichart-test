@@ -6,9 +6,15 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup HitTest
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIHitTestProviderBase.h"
 
 @interface SCIBubbleHitTestProvider : SCIHitTestProviderBase
 
 @end
+
+/** @}*/

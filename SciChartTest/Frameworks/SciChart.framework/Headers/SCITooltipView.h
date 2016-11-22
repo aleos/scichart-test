@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <UIKit/UIKit.h>
 
 @class SCITooltipDataView;
@@ -28,3 +32,5 @@
 +(SCITooltipView *) createInstance;
 
 @end
+
+/** @}*/

@@ -9,13 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "SCIPen2D.h"
 #import "SCICallbackBlock.h"
+#import "SCIStyle.h"
 
 @protocol SCIPen2D;
 @protocol SCIBrush2D;
 @class SCITextFormattingStyle;
 
 #pragma mark SCIAxisLabelClippingMode enum
-/*!
+/**
  * @typedef SCIAxisLabelClippingMode
  * @abstract A list of axis labels clipping modes.
  * @discussion Possible values:
@@ -24,8 +25,11 @@
  * @discussion - SCIAxisLabelClipping_Surface labels will be clipped to whole chart surface (axes and charts area)
  */
 typedef NS_ENUM(NSUInteger, SCIAxisLabelClippingMode) {
+    /** labels will not be clipped */
     SCIAxisLabelClipping_None,
+    /** labels will be clipped to axis area */
     SCIAxisLabelClipping_Axis,
+    /** labels will be clipped to whole chart surface (axes and charts area) */
     SCIAxisLabelClipping_Surface
 };
 
@@ -33,9 +37,10 @@ typedef NS_ENUM(NSUInteger, SCIAxisLabelClippingMode) {
 /*!
  * @abstract SCIAxisStyle class
  * @discussion Contains properties for axis theming and customization
- * @discussion It signals about properties changes with "styleChanged" block
+ * @see SCIStyle
+ * @see SCIAxis2D
  */
-@interface SCIAxisStyle : NSObject <NSCopying>
+@interface SCIAxisStyle : NSObject <SCIStyle, NSCopying>
 
 #pragma mark Minor ticks setting
 /*!
@@ -44,13 +49,16 @@ typedef NS_ENUM(NSUInteger, SCIAxisLabelClippingMode) {
 @property (nonatomic) BOOL drawMinorTicks;
 
 /*!
- * @abstract Pen with which minor ticks are drawn.
- * @discussion Defines ticks width and color.
+ * @abstract Defines minor ticks thickness and color.
+ * @code
+ * axis.style.minorTickBrush = SCIPenSolid(colorCode: 0xFFFFFFFF, width: 0.5)
+ * @encode
+ * @see SCIPen2D
  */
 @property (nonatomic, strong) id<SCIPen2D> minorTickBrush;
 
 /*!
- * @abstract Defines minor ticks line length.
+ * @abstract Defines minor ticks line length
  */
 @property (nonatomic) float minorTickSize;
 
@@ -61,8 +69,11 @@ typedef NS_ENUM(NSUInteger, SCIAxisLabelClippingMode) {
 @property (nonatomic) BOOL drawMajorTicks;
 
 /*!
- * @abstract Pen with which major ticks are drawn.
- * @discussion Defines ticks width and color.
+ * @abstract Defines major ticks thickness and color.
+ * @code
+ * axis.style.majorTickBrush = SCIPenSolid(colorCode: 0xFFFFFFFF, width: 0.5)
+ * @encode
+ * @see SCIPen2D
  */
 @property (nonatomic, strong) id<SCIPen2D> majorTickBrush;
 
@@ -78,8 +89,11 @@ typedef NS_ENUM(NSUInteger, SCIAxisLabelClippingMode) {
 @property (nonatomic) BOOL drawMinorGridLines;
 
 /*!
- * @abstract Pen with which minor grid lines are drawn on chart surface.
- * @discussion Defines minor grid lines width and color.
+ * @abstract Defines minor grid lines thickness and color that are drawn on chart surface.
+ * @code
+ * axis.style.minorGridLineBrush = SCIPenSolid(colorCode: 0xFFFFFFFF, width: 0.5)
+ * @encode
+ * @see SCIPen2D
  */
 @property (nonatomic, strong) id<SCIPen2D> minorGridLineBrush;
 
@@ -90,8 +104,11 @@ typedef NS_ENUM(NSUInteger, SCIAxisLabelClippingMode) {
 @property (nonatomic) BOOL drawMajorGridLines;
 
 /*!
- * @abstract Pen with which major grid lines are drawn on chart surface.
- * @discussion Defines major grid lines width and color.
+ * @abstract Defines major grid lines thickness and color that are drawn on chart surface
+ * @code
+ * axis.style.majorGridLineBrush = SCIPenSolid(colorCode: 0xFFFFFFFF, width: 0.5)
+ * @encode
+ * @see SCIPen2D
  */
 @property (nonatomic, strong) id<SCIPen2D> majorGridLineBrush;
 
@@ -103,9 +120,12 @@ typedef NS_ENUM(NSUInteger, SCIAxisLabelClippingMode) {
 @property (nonatomic) BOOL drawMajorBands;
 
 /*!
- * @abstract Brush with which grid bands are drawn on chart surface.
- * @discussion Defines bands color.
+ * @abstract Defines grid bands color that are drawn on chart surface.
+ * @code
+ * axis.style.gridBandBrush = SCIBrushSolid(colorCode: 0xE1232120)
+ * @encode
  * @discussion Bands are drawn between major grid lines.
+ * @see SCIBrush2D
  */
 @property (nonatomic, strong) id<SCIBrush2D> gridBandBrush;
 
@@ -154,12 +174,5 @@ typedef NS_ENUM(NSUInteger, SCIAxisLabelClippingMode) {
  * @discussion Actual axis size can be different if it is not possible to layout axes with recommended size
  */
 @property (nonatomic) float recommendedSize;
-
-#pragma mark Style changed callback
-/*!
- * @abstract Block wich is called on every style property change.
- * @discussion It is used for invalidating parent axis and provoking redraw of charts on style change
- */
-@property (nonatomic, copy) SCIActionBlock styleChanged;
 
 @end

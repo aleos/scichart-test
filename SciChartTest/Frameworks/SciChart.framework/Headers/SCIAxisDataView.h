@@ -6,12 +6,18 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <UIKit/UIKit.h>
 #import "SCITooltipDataView.h"
 
 @class SCIAxisInfo;
 
 @interface SCIAxisDataView : SCITooltipDataView
+
+@property (nonatomic) NSNumberFormatter *formatter;
 
 @property (weak, nonatomic) IBOutlet UILabel *dataLabel;
 
@@ -23,3 +29,5 @@
 +(SCIAxisDataView *) createInstance;
 
 @end
+
+/** @}*/

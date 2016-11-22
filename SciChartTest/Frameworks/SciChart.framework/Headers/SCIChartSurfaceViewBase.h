@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Visuals
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UiKit.h>
 #import "SCICallbackBlock.h"
@@ -51,3 +55,5 @@ typedef void (^SCIResizeAxesAreasRequest) (float left, float right, float top, f
 -(BOOL) axisAreasNeedResizing;
 
 @end
+
+/** @}*/

@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Annotations
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIAnnotationBase.h"
 
@@ -21,3 +25,5 @@
 @property (nonatomic, copy) SCILineAnnotationStyle * style;
 
 @end
+
+/** @}*/

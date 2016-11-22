@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup CoordinateCalculators
+ *  @{
+ */
+
 @protocol SCIRange;
 
 typedef double (*SCICoordinateCalculatorCoordFunction)(void * info, double value);
@@ -34,3 +38,5 @@ typedef struct {
 -(SCICoordinateCalculatorHelper) getCalculatorHelper;
 
 @end
+
+/** @}*/

@@ -6,11 +6,15 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
-#import "SCIChartModifierBase.h"
+#import "SCIGestureModifier.h"
 #import "SCIEnumerationConstants.h"
 
-@interface SCIRelativeZoomModifierBase : SCIChartModifierBase
+@interface SCIRelativeZoomModifierBase : SCIGestureModifier
 
 @property (nonatomic) SCIXYDirection xyDirection;
 @property (nonatomic) double growFactor;
@@ -19,3 +23,5 @@
 -(void) growByFraction:(double)fraction AtPoint:(CGPoint)location AtAxis:(id<SCIAxis2D>)axis;
 
 @end
+
+/** @}*/

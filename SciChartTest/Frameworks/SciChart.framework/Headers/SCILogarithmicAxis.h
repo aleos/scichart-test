@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import "SCIAxis2D.h"
 
 @protocol SCILogarithmicAxis <SCIAxis2D>
@@ -13,3 +17,5 @@
 @property (nonatomic) double logarithmicBase;
 
 @end
+
+/** @}*/

@@ -19,6 +19,7 @@
 
 -(SCIArrayController *) xValues;
 -(SCIArrayController *) yValues;
+-(SCIArrayController *) indices;
 -(int) count;
 -(SCIDoubleRange*) getYRange;
 -(void) clear;
@@ -30,7 +31,7 @@
 @interface SCIPointSeries : NSObject <SCIPointSeries>
 
 -(id) initWithCapacity:(NSInteger)size;
--(id) initWithXData:(SCIArrayController*)xData YData:(SCIArrayController*)yData;
--(void) addX:(double)x Y:(double)y;
+-(id) initWithXData:(SCIArrayController*)xData YData:(SCIArrayController*)yData Indices:(SCIArrayController*)indices;
+-(void) addX:(double)x Y:(double)y Index:(int)index;
 
 @end

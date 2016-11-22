@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 #import "SCIAxisEnums.h"
@@ -25,7 +29,11 @@
 @property (nonatomic, copy) NSString * cursorFormattedDataValue;
 @property (nonatomic) BOOL isMasterChartAxis;
 @property (nonatomic) CGRect frame;
+@property (nonatomic) NSNumberFormatter *numberFormatter;
+@property (nonatomic) NSDateFormatter *dateTimeFormatter;
 
 -(SCITooltipDataView *) createAxisDataView;
 
 @end
+
+/** @}*/

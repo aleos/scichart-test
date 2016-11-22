@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "SCICallbackBlock.h"
@@ -41,3 +45,5 @@ typedef NS_ENUM(NSInteger, SCIStackPanelOrientation) {
 @property (nonatomic) float forcedSize;
 
 @end
+
+/** @}*/

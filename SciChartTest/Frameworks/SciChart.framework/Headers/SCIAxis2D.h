@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 #import "SCIAxisCore.h"
@@ -98,3 +102,5 @@
 -(void) free;
 
 @end
+
+/** @}*/

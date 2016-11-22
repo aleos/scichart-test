@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup RenderableSeries
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIRenderableSeriesBase.h"
 
@@ -33,3 +37,5 @@
 @property (nonatomic, strong) SCIHeatMapSeriesStyle * style;
 
 @end
+
+/** @}*/

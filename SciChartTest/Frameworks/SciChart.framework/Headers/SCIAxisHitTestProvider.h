@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup HitTest
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIAxisInfo.h"
 #import "SCIGenericType.h"
@@ -18,3 +22,5 @@
 -(SCIAxisInfo *)hitTestAxis:(id<SCIAxis2D>)axis AtValue:(SCIGenericType)dataValue;
 
 @end
+
+/** @}*/

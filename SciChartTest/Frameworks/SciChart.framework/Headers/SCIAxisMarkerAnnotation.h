@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart. All rights reserved.
 //
 
+/** \addtogroup Annotations
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIAnnotationBase.h"
 
@@ -22,3 +26,5 @@
 -(NSString *) formatValue:(SCIGenericType)value;
 
 @end
+
+/** @}*/

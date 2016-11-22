@@ -6,8 +6,12 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
-#import "SCIChartModifierBase.h"
+#import "SCIGestureModifier.h"
 #import "SCIHitTestProvider.h"
 
 @class SCICursorModifierStyle;
@@ -16,7 +20,7 @@
  @brief The SCICursorModifier class.
  @discussion Provides a cross-hairs (curosr) plus tooltip with X,Y data values under the touch gestures.
  */
-@interface SCICursorModifier : SCIChartModifierBase
+@interface SCICursorModifier : SCIGestureModifier
 
 /*!
  @brief The SCICursorModifier class' property.
@@ -36,3 +40,5 @@
                          hitTestMode:(SCIHitTestMode) hitTestMode;
 
 @end
+
+/** @}*/

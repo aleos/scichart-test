@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup RenderableSeries
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIRenderableSeriesBase.h"
 #import "SCIStackedRenderableSeries.h"
@@ -19,3 +23,5 @@
 @property (nonatomic, strong) SCIMountainSeriesStyle * style;
 
 @end
+
+/** @}*/

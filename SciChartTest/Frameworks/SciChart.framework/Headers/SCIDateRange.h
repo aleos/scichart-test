@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Ranges
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIRange.h"
 
@@ -18,3 +22,5 @@
 -(id) initWithDateMin:(NSDate*)min Max:(NSDate*)max;
 
 @end
+
+/** @}*/

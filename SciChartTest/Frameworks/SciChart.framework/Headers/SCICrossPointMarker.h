@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup PointMarkers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIPointMarkerBase.h"
 
@@ -18,3 +22,5 @@
 @property (nonatomic) BOOL drawRotated;
 
 @end
+
+/** @}*/

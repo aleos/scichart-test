@@ -4,25 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		m99WUmd5v5KShGbs9HHbxtLYw84=
+		</data>
 		<key>Headers/SCIAnnotation.h</key>
 		<data>
-		HxYbeLITkMawqG49X+LXPnioljo=
+		9YDTbc+OUmnH+x2S7NwPhgn2aQU=
 		</data>
 		<key>Headers/SCIAnnotationBase.h</key>
 		<data>
-		6+FVGU944wZzwLXqXpU8i+nvoCA=
+		0Pl3GRdq/uEv3b4EJDROl/WqbxM=
 		</data>
 		<key>Headers/SCIAnnotationGroup.h</key>
 		<data>
-		Re5q1M8LXXR2jok0TnW4Tkcsx4Q=
+		jrUxthMdIhx+Mazjy/EYhhMnpmk=
 		</data>
 		<key>Headers/SCIAnnotationStyleEnums.h</key>
 		<data>
-		84PZ64tx/BHKZnJW4uGJlRcfPXc=
+		epxxXjD7ni3EQAh0b0NWyfCNYMY=
 		</data>
 		<key>Headers/SCIArrayController.h</key>
 		<data>
-		YHatgFAGgssWX9N0MLFxOkORa5M=
+		wN9NPqK7PxaozhMEibhSq2/RlCI=
 		</data>
 		<key>Headers/SCIArrayController2D.h</key>
 		<data>
@@ -32,33 +36,37 @@
 		<data>
 		oyq3pMseHHyb5YaztOOEgZ7RfgI=
 		</data>
+		<key>Headers/SCIArrayControllerProtocol.h</key>
+		<data>
+		hBfYaelUL2srg+aHpuE6ioKFuQE=
+		</data>
 		<key>Headers/SCIAxis2D.h</key>
 		<data>
-		oi2718VQW7qgaGpEsMUzl1zioc0=
+		TL1K+neF9Ch3E+lYZ7JJwnZ2drw=
 		</data>
 		<key>Headers/SCIAxisArea.h</key>
 		<data>
-		qd5VHn2y+qGx/yaWrAWQLlaQrRU=
+		3yrALalqmbIk82dcTioXH9osP5Q=
 		</data>
 		<key>Headers/SCIAxisAreaSizeSyncronization.h</key>
 		<data>
-		nTNCi213wibdn/dIjgBJeQ8I1iw=
+		75kOswRuYbQ9xRNbKA27bl01Pb8=
 		</data>
 		<key>Headers/SCIAxisBase.h</key>
 		<data>
-		JukFK9GzkF0kXGKjtlERDFHFZ7Q=
+		G19rXeIBf/IFVPM07JP/hqe5Zmo=
 		</data>
 		<key>Headers/SCIAxisCollection.h</key>
 		<data>
-		NSPpXraVnTGf5zXjAiw5c7YKS5M=
+		RjMlDhQGPXhA+hyZh1qZLV4e9nk=
 		</data>
 		<key>Headers/SCIAxisCore.h</key>
 		<data>
-		TqS1iMrKDAUJNNW4YwjRmBdBeO8=
+		PVIJbshVguOlj6qNxnOacFCepnI=
 		</data>
 		<key>Headers/SCIAxisDataView.h</key>
 		<data>
-		vgnXb7Q8e+lshhnMx1B/jkxuTYg=
+		W6AIBDhBjm43MJ0uvBujBS9Dh8o=
 		</data>
 		<key>Headers/SCIAxisDelta.h</key>
 		<data>
@@ -66,67 +74,67 @@
 		</data>
 		<key>Headers/SCIAxisDragModifierBase.h</key>
 		<data>
-		FkG61umlEkn+PRtB/NPp4ot7Lq0=
+		3RZFt1w4YkCc0r1qOMU56PzifIE=
 		</data>
 		<key>Headers/SCIAxisEnums.h</key>
 		<data>
-		th85pPkZN8qvy43CBEelKZjAz38=
+		LKFKq7yCT6+pxI6BVr1r8pr17gI=
 		</data>
 		<key>Headers/SCIAxisHitTestProvider.h</key>
 		<data>
-		JFXxYQ/e62HBIcvmzlcjrFgs1O4=
+		5IeOTQIqOuQQ1euawkvqhGutY9k=
 		</data>
 		<key>Headers/SCIAxisInfo.h</key>
 		<data>
-		lJlh2hNhbjtAcidqn8zEHtmNn90=
+		rcj4QhLLWb7N9d0YaWC1qhKreLQ=
 		</data>
 		<key>Headers/SCIAxisInteractivityHelper.h</key>
 		<data>
-		aq7XY0YTjU07/EhIVL1RCYOTXn8=
+		CNkNkN/aBu+NLYJ8h9p5tmjcCUU=
 		</data>
 		<key>Headers/SCIAxisMarkerAnnotation.h</key>
 		<data>
-		vgQVEVZJKQyMnZRQw1uXMwkSELc=
+		wosyIEKwrnFzRJKWki3MUphE3hU=
 		</data>
 		<key>Headers/SCIAxisMarkerAnnotationStyle.h</key>
 		<data>
-		TZ3L6OLIPvJFNuBuApa3xee7Tno=
+		QQJ+UcdGd3kY+1RHvX3eaDJ3PUU=
 		</data>
 		<key>Headers/SCIAxisParams.h</key>
 		<data>
-		0o+XKH8e3H2vPV5vwokQ17BZcb4=
+		glv1U7c1siIllPP+xMz8sPg3Qyo=
 		</data>
 		<key>Headers/SCIAxisPinchZoomModifier.h</key>
 		<data>
-		kE9Qn9phxYF9d2ZDTInyOqZIoFA=
+		+cBO/jhJSg9qB2FnbTERBaQ2jcM=
 		</data>
 		<key>Headers/SCIAxisRangeSyncronization.h</key>
 		<data>
-		MY37UYr7+yJapdOPBvmA6jlH8I4=
+		BmOeYWpa1OtIiUNyDgQuR6P8TP4=
 		</data>
 		<key>Headers/SCIAxisStyle.h</key>
 		<data>
-		CdQB1B5WnyhpZRBVxLaNP6RFE0M=
+		3GnDKOXqjOvdt0vW3mObcNkksGo=
 		</data>
 		<key>Headers/SCIBandHitTestProvider.h</key>
 		<data>
-		Jd08ZALj+ANmeui5SOM4PRvi+4k=
+		KxA7/msIZcbAbCH7xo9XYRAivT4=
 		</data>
 		<key>Headers/SCIBandRenderableSeries.h</key>
 		<data>
-		rGPJAwGzQ8m5/jYAdxlCXYfYPYM=
+		GaLDu6DhxGhpwcmNCmWgqYjUq60=
 		</data>
 		<key>Headers/SCIBandSeriesStyle.h</key>
 		<data>
-		GUUmMxorfhUPe/7anhD7Tm/YzzI=
+		tz4spJnEl/tqPkT4pjn/PTQRMD8=
 		</data>
 		<key>Headers/SCIBoxAnnotation.h</key>
 		<data>
-		qsqzt0K4PhEfRoO2sL7GzfKJ+bs=
+		KhTlAJKOO/meyc/TJBumCJcmhTc=
 		</data>
 		<key>Headers/SCIBoxAnnotationStyle.h</key>
 		<data>
-		lfOMawgtXWMuyDbzOyCdw2zGSuI=
+		isjPa8fpUUZXSbSoS+rUFRQbIDw=
 		</data>
 		<key>Headers/SCIBrush2D.h</key>
 		<data>
@@ -154,15 +162,15 @@
 		</data>
 		<key>Headers/SCIBubbleHitTestProvider.h</key>
 		<data>
-		ezskxNWrYKEpsfBqJUmtnMFh37k=
+		/zOdAgo+PQiCDdnXomiBdlG+u8U=
 		</data>
 		<key>Headers/SCIBubbleRenderableSeries.h</key>
 		<data>
-		drAiwzd3fyq/5g3hNegk894Y8wU=
+		jGaAhy1mvTt/NZiyN3SJ4XeapYY=
 		</data>
 		<key>Headers/SCIBubbleSeriesStyle.h</key>
 		<data>
-		r57Ykt8jwaEIl2kdZfEJC5WsQps=
+		7fz6gPSJvcVU0df4apZyucBylLE=
 		</data>
 		<key>Headers/SCICallbackBlock.h</key>
 		<data>
@@ -178,91 +186,99 @@
 		</data>
 		<key>Headers/SCICandlestickHitTestProvider.h</key>
 		<data>
-		2THQuixfQOEq7dRTyvDsfdz4dBs=
+		NunCDVgAbTyJfZoodaOFLARtmfw=
 		</data>
 		<key>Headers/SCICandlestickSeriesStyle.h</key>
 		<data>
-		/HvVOf29WSmNXKxvNKUMjUjMay8=
+		yI0Ejt5L8eIMToCoaTrLLkDH3+o=
+		</data>
+		<key>Headers/SCICategoryArrayController.h</key>
+		<data>
+		c7sIjgAar/tN4S5xCwg/XQnjISI=
 		</data>
 		<key>Headers/SCICategoryCoordinateCalculator.h</key>
 		<data>
-		YVO5ck3fyX0vrqo9LbWKqmIqGCc=
+		eu32vs9dbWIVsyDbY4c7w1kBhCc=
 		</data>
 		<key>Headers/SCICategoryDateTimeAxis.h</key>
 		<data>
-		OPPngAboz+mKFO4oZNMpeCmvs9U=
+		XpX4tyNBB52txMA4MvTH4QBOPUI=
 		</data>
 		<key>Headers/SCICategoryNumericAxis.h</key>
 		<data>
-		fCOEtqbzHamvPikGUQWYIX4E+LY=
+		LpSBSvYxxHmNHS8fo9RHV1EW2SQ=
 		</data>
 		<key>Headers/SCIChartModifier.h</key>
 		<data>
-		7oBcmtM/e77r6ScOghQi67QlmF0=
+		3P8rjFFIk8aLmPf/CQg7A2XrVlw=
 		</data>
 		<key>Headers/SCIChartModifierBase.h</key>
 		<data>
-		N6mgQ6+/mYh5t2LDV63Hc61y4mw=
+		5pbAGJNpDWNUfPL7PEowQKI/b8A=
 		</data>
 		<key>Headers/SCIChartSurface.h</key>
 		<data>
-		kMGeF9v1xlzDaitJfRfUGqwnqC4=
+		RhY+vCQ2IiKPxrRuOYRWwOA66jQ=
 		</data>
 		<key>Headers/SCIChartSurfaceView.h</key>
 		<data>
-		y4Bit8H8VNIxirRK2m4v/UPINOI=
+		S4U1kr4NJ6NFmjXs5YFdu5cS6Xw=
 		</data>
 		<key>Headers/SCIChartSurfaceViewBase.h</key>
 		<data>
-		8oMpTyxOAA+I4gbnA9EGyDmQolU=
+		MmREXdt4q3gG7t/KTAjSbFXXSd8=
 		</data>
 		<key>Headers/SCIColumnHitTestProvider.h</key>
 		<data>
-		dy+4qAq/kUF3hvG8QMh3udsqmMM=
+		YJrbuFDMr/l3SAAMy7aVzBsxl3I=
 		</data>
 		<key>Headers/SCIColumnSeriesStyle.h</key>
 		<data>
-		ydK72PUr0NJU0zxIIEnH+Gwf1ec=
+		ewknhbaWHxU9Nvu0ePmhAjjLOFg=
 		</data>
 		<key>Headers/SCICoordinateCalculator.h</key>
 		<data>
-		v+E7oh4/0rEb/tZQAh8uxgy3D0o=
+		D7Pu2yHz8maLW6QcobX+6aSKo4A=
 		</data>
 		<key>Headers/SCICoordinateCalculatorBase.h</key>
 		<data>
-		LXgVCOqU+IkJ7Apoe+ZN36lEr2s=
+		i08fSJsxhJk8WRZ5hoM47eHiK5w=
 		</data>
 		<key>Headers/SCICoordinateCalculatorFactory.h</key>
 		<data>
-		VxLNHMJWsSg+rvRY0WnFnKHSSw0=
+		ORvTEwSc99mTWW3rZBhzN4ZNqOE=
 		</data>
 		<key>Headers/SCICoreGraphicsPointMarker.h</key>
 		<data>
-		hn0fBX7Td9YYDTrqeT6NBYkZ3mc=
+		qtJApsxBxBqWhs927q+eJ0SThg0=
 		</data>
 		<key>Headers/SCICrossPointMarker.h</key>
 		<data>
-		FwDkiZlJTBcYYaSYBf/f/PAFmtE=
+		PVQCmyIBATcX1L/1ZUjBClZniv4=
 		</data>
 		<key>Headers/SCICursorModifier.h</key>
 		<data>
-		NDroo5/DNAhHk5+Agr+bKAiybzE=
+		YAidsu7trY89Cekq0wwQ16IYCH0=
 		</data>
 		<key>Headers/SCICursorModifierStyle.h</key>
 		<data>
-		s+ybwxXPhFoz+ltqPAkhfTztUIs=
+		wBNj5/Dvx63tXjxRj0WqQhhfmTo=
 		</data>
 		<key>Headers/SCIDataDistributionCalculator.h</key>
 		<data>
-		EXQmIibx8CndYe19rcwe2EK3Jog=
+		l9GUQTRf+vMMwJYhUj82c9GZbq0=
 		</data>
 		<key>Headers/SCIDataDistributionCalculatorBase.h</key>
 		<data>
 		U343gRgnWY5UjNCMpkkQU4sduFo=
 		</data>
+		<key>Headers/SCIDataSeries+XColumnEvents.h</key>
+		<data>
+		QIGMxXvJap+qln5f3juqJMmwzYc=
+		</data>
 		<key>Headers/SCIDataSeries.h</key>
 		<data>
-		42aWir6iWkA19FK1H7ZxrWDCw80=
+		RnBg6BVdWrZof8dOHPgC2bRPvcs=
 		</data>
 		<key>Headers/SCIDataType.h</key>
 		<data>
@@ -274,11 +290,11 @@
 		</data>
 		<key>Headers/SCIDateRange.h</key>
 		<data>
-		py0KRGbdiD1R9GpItGBUqca6Gk8=
+		q3xWLGCPhzswCXXREJVkeTpPDkI=
 		</data>
 		<key>Headers/SCIDateTimeAxis.h</key>
 		<data>
-		y1Q16Ik/x3AUOvHJdigqG6oqvV0=
+		QpY2xnUM/3lA1UNJwhRYyr+5Plo=
 		</data>
 		<key>Headers/SCIDateTimeDeltaCalculator.h</key>
 		<data>
@@ -306,51 +322,63 @@
 		</data>
 		<key>Headers/SCIDoubleCoordinateCalculator.h</key>
 		<data>
-		pcJMmpCX94Kzs0xG2LuHKxhz8QU=
+		lnh5gpsCAtaXqAtphp8Yi0O6+GI=
 		</data>
 		<key>Headers/SCIDoubleRange.h</key>
 		<data>
-		YA3LaHKBkwZCpV0lbixwIZgh83w=
+		xL8weQJ5JZmsb8OtoXUzuGRfZuk=
 		</data>
 		<key>Headers/SCIDrawable.h</key>
 		<data>
-		sQX/AvYee11zzfckNEJ14vEFKSU=
+		FEIHKY4QYW6DE0OVWv0LH5vTgaU=
 		</data>
 		<key>Headers/SCIEllipsePointMarker.h</key>
 		<data>
-		H5h7RbVwHQcVf1IfjjH1A6n/PHg=
+		PN+/nzYkErNq7m9kuL1S1tV0ioM=
 		</data>
 		<key>Headers/SCIEnumerationConstants.h</key>
 		<data>
 		XPixg1hqw4wfXcLLritSoF+HVIk=
 		</data>
+		<key>Headers/SCIErrorBarsSeriesStyle.h</key>
+		<data>
+		qKNviK+QspE/aaITOB87rVoNnNU=
+		</data>
 		<key>Headers/SCIFastCandlestickRenderableSeries.h</key>
 		<data>
-		v963L1khFNF673JDB7SofLXXZ54=
+		xDu5J01PyBxoXo2K+wgFzHUrWC0=
 		</data>
 		<key>Headers/SCIFastColumnRenderableSeries.h</key>
 		<data>
-		Xs1Rzi4i1BXzWIYmCrslc1A1tI8=
+		gbuBDJUErLPiNohrfbI0lk00z8k=
+		</data>
+		<key>Headers/SCIFastFixedErrorBarsRenderableSeries.h</key>
+		<data>
+		C16w2CkuVoRHuNBV6ZDcjySNlDA=
+		</data>
+		<key>Headers/SCIFastImpulseRenderableSeries.h</key>
+		<data>
+		3wvQEvc2GQeufEPSmDU3l+eKpts=
 		</data>
 		<key>Headers/SCIFastLineRenderableSeries.h</key>
 		<data>
-		z6381az8siJPlGb1mboFpvrOCfc=
+		E5iY09x9mjs/mMZz9joDq94n4Tw=
 		</data>
 		<key>Headers/SCIFastMountainRenderableSeries.h</key>
 		<data>
-		XclgvRg9VxnkwzTey0brnmcI1uk=
+		dLKTaOJ5z/V03LVvFZfsB/ofblQ=
 		</data>
 		<key>Headers/SCIFastOhlcRenderableSeries.h</key>
 		<data>
-		wrS/s/Ab93aYaTE1KTGco7HBECk=
+		1xxYM57fP1qn+7jY5QT3fr571Qs=
 		</data>
 		<key>Headers/SCIFlippedDoubleCoordinateCalculator.h</key>
 		<data>
-		nXeGXbGeMDC4ha69P4z3i6143MU=
+		21klux1tirE0Sl0nrLiDXTcFf44=
 		</data>
 		<key>Headers/SCIFloatRange.h</key>
 		<data>
-		8gl8FSXM4NmdFSA7HwY51jm0eus=
+		SEXveAwT5nRqW/9i/fSXFZIZFlg=
 		</data>
 		<key>Headers/SCIGenericType.h</key>
 		<data>
@@ -360,37 +388,45 @@
 		<data>
 		4uqWpo6pXXCnIOpsLLvibUbeBs8=
 		</data>
+		<key>Headers/SCIGestureModifier.h</key>
+		<data>
+		6rb4STF/AuFha+D/CHITAzMKFWM=
+		</data>
 		<key>Headers/SCIHeatMapDataSeries.h</key>
 		<data>
-		S6ds9JGqszYqXX96DPKVfZUnlLA=
+		ZvSZmD0T1uWTeSaD65fnrCSsI0g=
 		</data>
 		<key>Headers/SCIHeatMapHitTestProvider.h</key>
 		<data>
-		IQJuXa4gUfGtWSoR+gf9Lmb/DL0=
+		mAAcLTjnB3UGxcxvyHUgJgmNCHM=
 		</data>
 		<key>Headers/SCIHeatMapRenderableSeries.h</key>
 		<data>
-		AI3Xgu7qWz5GnECjvs/sywVt4jE=
+		Eq5IXFlu9mUmCouwwZ2D8yJw4Xc=
 		</data>
 		<key>Headers/SCIHeatMapSeriesStyle.h</key>
 		<data>
-		jopaDnYQ9MyO2OUaYfRR+IyxWGY=
+		yDuPqNDgBmzxC3+XTMOEmHYyoMk=
 		</data>
 		<key>Headers/SCIHitTestProvider.h</key>
 		<data>
-		W5eN1+xOTRALTzZRG9WLKSrwras=
+		5nciFBuCVe2J6hRzQ1QaCEmbaKc=
 		</data>
 		<key>Headers/SCIHitTestProviderBase.h</key>
 		<data>
-		tzKlmBHUHfZOhz/i/gcR/nrRYqQ=
+		G2s4UKhhYUyMfKcb1q9O7ionSIg=
+		</data>
+		<key>Headers/SCIImpulseSeriesStyle.h</key>
+		<data>
+		C3n8VjUM/tiF23njjKLbJCgmVDA=
 		</data>
 		<key>Headers/SCIIndexRange.h</key>
 		<data>
-		lbfx6K6Q9SwOm5AS77cSe5G346o=
+		WQqS2zYJT2Am8xc4Kb4ye4lrmcg=
 		</data>
 		<key>Headers/SCIIntegerRange.h</key>
 		<data>
-		4lGfPumwgzWJAsE++B7H1jeMRQA=
+		pHTJ7N753YrKUR9pzF6vdZCmveY=
 		</data>
 		<key>Headers/SCIInvalidatableElement.h</key>
 		<data>
@@ -404,21 +440,41 @@
 		<data>
 		8IHaal2X6b7Oz6SllLA6+BKMU2A=
 		</data>
+		<key>Headers/SCILegendCell.h</key>
+		<data>
+		d5fGQvjwhE30w4rIJcYQrgjF6MI=
+		</data>
+		<key>Headers/SCILegendCellStyle.h</key>
+		<data>
+		5QtvH0PfioqNakyFj/+lMrWP/Is=
+		</data>
+		<key>Headers/SCILegendCollectionModifier.h</key>
+		<data>
+		dZDb+8QrMQnmVIig8E2aPO3LRo8=
+		</data>
+		<key>Headers/SCILegendItem.h</key>
+		<data>
+		/HU56FXywBaFzq+Pr+yJJfCDRbc=
+		</data>
+		<key>Headers/SCILegendModifier.h</key>
+		<data>
+		miqdq4ziZ+RyWiMs09PTgWsnMnA=
+		</data>
 		<key>Headers/SCILineAnnotation.h</key>
 		<data>
-		lIMnU5CHLaMPU859ERz5oV7ci4A=
+		bSkxAXsmXeO+wvZEULGrdgtD2BI=
 		</data>
 		<key>Headers/SCILineAnnotationStyle.h</key>
 		<data>
-		MOy1bMaCJMTGdJa1sKv0+UjBgkc=
+		gs2dcdSpet0MAUHFSS8GMI65LW8=
 		</data>
 		<key>Headers/SCILineHitTestProvider.h</key>
 		<data>
-		NrwnvUhpCVp+EczHFNIRj2Nh/2g=
+		tCGYoBry4tKvKkVs2CJ1WuGpgxg=
 		</data>
 		<key>Headers/SCILineSeriesStyle.h</key>
 		<data>
-		LDKxsOwf/8Wr1K7aDg+0kz8cLcI=
+		tKhYOxyqD9v43CM9Ppm/RYDH0uw=
 		</data>
 		<key>Headers/SCILinearGradientBrush.h</key>
 		<data>
@@ -426,11 +482,11 @@
 		</data>
 		<key>Headers/SCILogarithmicAxis.h</key>
 		<data>
-		+KFqUVKUNWq4fueaC/FCwdAtyeU=
+		VSvYuWRc8n2maQc/r6wyDOpgw7w=
 		</data>
 		<key>Headers/SCILogarithmicCoordinateCalculator.h</key>
 		<data>
-		//klAnsHIyqsXGMXQo+VlIiUZ6Q=
+		W5NCSNmSRyMS63Zu5Xc/uU+/xSY=
 		</data>
 		<key>Headers/SCILogarithmicDeltaCalculator.h</key>
 		<data>
@@ -438,11 +494,11 @@
 		</data>
 		<key>Headers/SCILogarithmicDoubleCoordinateCalculator.h</key>
 		<data>
-		RoA8zxkkjQpOLzuo1dOjRcN0JIg=
+		opsxSPvg7TSCn1Urom31KNGoa8I=
 		</data>
 		<key>Headers/SCILogarithmicNumericAxis.h</key>
 		<data>
-		dtRIPh0qeBSCTIuYUgqjM25XIoo=
+		JxmWoQiYEmvqXEtrdgPSVZpCKMY=
 		</data>
 		<key>Headers/SCILogarithmicNumericLabelProvider.h</key>
 		<data>
@@ -454,19 +510,19 @@
 		</data>
 		<key>Headers/SCIModifierGroup.h</key>
 		<data>
-		EGmC57U0vdyfjvD153Q/fhvRZNQ=
+		zvhhQ6xH2ylnhQLXkhjgWMWkEn4=
 		</data>
 		<key>Headers/SCIMountainHitTestProvider.h</key>
 		<data>
-		qJq6yGD+6CIJ9oMoIcQQ/6RuDGA=
+		6SMYWn9xOrLSdmlXpRt0F/JRza8=
 		</data>
 		<key>Headers/SCIMountainSeriesStyle.h</key>
 		<data>
-		wvuMOig4lyYhL0DeFfesXqWEUYY=
+		iQ6UmFCJjW6lJb2l/y7CWO+FGG8=
 		</data>
 		<key>Headers/SCIMultiSurfaceModifier.h</key>
 		<data>
-		JJJRVwZp8c3nP46SCntpgFSyY90=
+		Mkgb5SOHXFyBSHe4fsQ5+IAQ3BE=
 		</data>
 		<key>Headers/SCINiceDoubleScale.h</key>
 		<data>
@@ -486,7 +542,7 @@
 		</data>
 		<key>Headers/SCINumericAxis.h</key>
 		<data>
-		ce3xr0q4Zx8DKE3t8IvK8YlMYgc=
+		HiN/M82JjsHCrjwOvXtL2xDFbVw=
 		</data>
 		<key>Headers/SCINumericDeltaCalculator.h</key>
 		<data>
@@ -510,27 +566,27 @@
 		</data>
 		<key>Headers/SCIOhlcDataSeries.h</key>
 		<data>
-		54jD4SacH7iLSKyLOWJEH9qUcFE=
+		Wb0ytnYJauUjNiqM+UI7e5EkAeM=
 		</data>
 		<key>Headers/SCIOhlcHitTestProvider.h</key>
 		<data>
-		ev1/aRRT8A8DuwMLW2zNmgGxT2Q=
+		wl4uxse/i4DxqLQXw7I8j3nvFmo=
 		</data>
 		<key>Headers/SCIOhlcPointSeries.h</key>
 		<data>
-		E6zqfoPdr42C7jSc+i53zG1zGrA=
+		QhbqHcmUpGO7MZWYAi8H4nGKBBc=
 		</data>
 		<key>Headers/SCIOhlcSeriesDataView.h</key>
 		<data>
-		GdsGKE8q2e8s7a6xGEcN9Iyb+mM=
+		PbVZ0j/EpS2CjNa3xu/b7plghHI=
 		</data>
 		<key>Headers/SCIOhlcSeriesInfo.h</key>
 		<data>
-		OU7t1Q3XXCp48iyMLzdKAetPDJY=
+		d50nE8mhX1te0oqRwIP7mk6XClU=
 		</data>
 		<key>Headers/SCIOhlcSeriesStyle.h</key>
 		<data>
-		j2J5x1raoeYcYgOE2RoxCw9VjGI=
+		4Kwfxbmq0kLSIpspDGmclgJMlWk=
 		</data>
 		<key>Headers/SCIOpenGLBrush.h</key>
 		<data>
@@ -539,6 +595,10 @@
 		<key>Headers/SCIOpenGLRenderSurface.h</key>
 		<data>
 		H06tcBkXEBIGGc81WkiXzu4AWX8=
+		</data>
+		<key>Headers/SCIPaletteProvider.h</key>
+		<data>
+		JVWCEdfv6YYJUeAncAvgTGsoLCI=
 		</data>
 		<key>Headers/SCIPathColor.h</key>
 		<data>
@@ -558,43 +618,43 @@
 		</data>
 		<key>Headers/SCIPinchZoomModifier.h</key>
 		<data>
-		Y3kXHuvzt8w/Qjd/2DbCL8q7EIo=
+		HvnLyXL1VbMIjYLoekcZF6DNTCg=
 		</data>
 		<key>Headers/SCIPointMarker.h</key>
 		<data>
-		ukmK+bf6gKXoApFazDG005ZNo6g=
+		I9WnCwqFkJjRAXUxBaRr8Ci6Xmk=
 		</data>
 		<key>Headers/SCIPointMarkerBase.h</key>
 		<data>
-		sshIcHMT66vhVjdOutl/SWMcj9Q=
+		iyEb+nrHJ8eI4iembuJhdNDmV7M=
 		</data>
 		<key>Headers/SCIPointMarkerClusterizer.h</key>
 		<data>
-		XDpCfmWnr2ryU/u22HXTkgcFIvA=
+		qXNttTvnDu3CiqIyTWxnbvg7rZ8=
 		</data>
 		<key>Headers/SCIPointMarkerHitTestProvider.h</key>
 		<data>
-		prSdTzJcgmPqtSet0CdemZJyrkM=
+		bLNvLNgQ3qc54VXLn4HvPfteoGY=
 		</data>
 		<key>Headers/SCIPointSeries.h</key>
 		<data>
-		GJmPmtEVUCkfOJOjDjmW1vUlyC4=
+		pYzw7W+ChR41jglgQLQ1FQF10wM=
 		</data>
 		<key>Headers/SCIRange.h</key>
 		<data>
-		TxkpkNamnUnnUbpAVeAhAnxGZ7M=
+		KhGnhdxeUNoAlaskQZEqJt8q8wk=
 		</data>
 		<key>Headers/SCIRangeChangedCallbackHelper.h</key>
 		<data>
-		qthYnN2gl5ZA8AnHeB0FwD5b6sM=
+		M2Kv/DBKmrJ0La/f+g55TbKDjYw=
 		</data>
 		<key>Headers/SCIRangeFactory.h</key>
 		<data>
-		jX+KtWg4p0LmZGq8isNRu27Rp2A=
+		M3m2SncxE24b9liel4mdx3XSnOM=
 		</data>
 		<key>Headers/SCIRelativeZoomModifierBase.h</key>
 		<data>
-		ootmLjRiOg71Qn9AXY9n5nwzZn8=
+		oWemqQwMfL82xlPIblnz/90VkX0=
 		</data>
 		<key>Headers/SCIRenderContext2D.h</key>
 		<data>
@@ -618,75 +678,79 @@
 		</data>
 		<key>Headers/SCIRenderSurfaceStyle.h</key>
 		<data>
-		6NjWp2TnjXQym63FooNZ6ZWxdrA=
+		vjno0s8ZBa672sR7GDqYLAKeePQ=
 		</data>
 		<key>Headers/SCIRenderableSeries.h</key>
 		<data>
-		wFtgobKdood8a1aH3OJxfUdJPpg=
+		UFGTG8F/8eXVfBsdSwBxBX15vW4=
 		</data>
 		<key>Headers/SCIRenderableSeriesBase.h</key>
 		<data>
-		5Abe+QGjr6DYYY8jgN4C8E6epqc=
+		TMf8n5rPXWoQzZVIaXOEUSLmfNU=
 		</data>
 		<key>Headers/SCIResamplingMode.h</key>
 		<data>
-		y1zST32flTOKoRO7EHblIAzUuAw=
+		yhPjqxZPgppqqWBx34QuPFNRg/0=
 		</data>
 		<key>Headers/SCIRolloverModifier.h</key>
 		<data>
-		0QuKPlV9cXXb2OdhVRPfqP7gXNQ=
+		gVMG6sTqWtKE6VbCKr8TBJQpckk=
 		</data>
 		<key>Headers/SCIRolloverModifierStyle.h</key>
 		<data>
-		2W3ulzI2lD1bM588dEWB0gHxCv0=
+		FuafD7Bjb911rroyUOZ/npY5X0s=
 		</data>
 		<key>Headers/SCIScatterSeriesStyle.h</key>
 		<data>
-		mYFixvf0d1Jgy617srFPujaExxE=
+		VY39KeecwctLSF+ngxAKvj04tUc=
 		</data>
 		<key>Headers/SCISeriesInfo.h</key>
 		<data>
-		qgMDPKuaRtZEBYON7GOiPPPgCng=
+		KSYz+ypPhR4x9U77esRYuSPbwKQ=
 		</data>
 		<key>Headers/SCISpritePointMarker.h</key>
 		<data>
-		Ni9hiEJkARgdD1kI23Gdir0k4Yc=
+		0EdE+y6Tik41Ecw6wGUTYT34r/I=
 		</data>
 		<key>Headers/SCISquarePointMarker.h</key>
 		<data>
-		bfrEwGR+w3T7NynXu3QTVOzEOAo=
+		0RmBxvEnT2hAglsyopBdLgBzerc=
 		</data>
 		<key>Headers/SCIStackedGroupSeries.h</key>
 		<data>
-		fRBMHfPACFqxY8qdc9+2hR/e644=
+		Ds+VVAlmebxLtpPdq1q/ZjZ83XA=
 		</data>
 		<key>Headers/SCIStackedMountainHitTestProvider.h</key>
 		<data>
-		+QlWpMHAelSX3taNz6E/+IM/De0=
+		tQRuvW4uH38UzqhTDpRq9m0KD0Y=
 		</data>
 		<key>Headers/SCIStackedMountainRenderableSeries.h</key>
 		<data>
-		XWE9Rpatd7LtIYlsDFNy/EMvC3w=
+		fccp2fL5rdq3BtoXNHB1+XeUsWY=
 		</data>
 		<key>Headers/SCIStackedRenderableSeries.h</key>
 		<data>
-		u0zdmZxlcxf1h9nPLSLK2BJngPc=
+		h235Ux3eLLgn7axSfE4WzSsT2bQ=
+		</data>
+		<key>Headers/SCIStyle.h</key>
+		<data>
+		FsnaF6tUo29VtdUDx30iws8/gfU=
 		</data>
 		<key>Headers/SCITextAnnotation.h</key>
 		<data>
-		l46tRJveC6SX2wquaEI2fBqad5Q=
+		oFx3AJfyUrbg6Y5PQd14/ZM+E00=
 		</data>
 		<key>Headers/SCITextAnnotationStyle.h</key>
 		<data>
-		V5/f3QU5cq/KvAObyQXpVjqWxPA=
+		zpXUW3oJewiGElLpdQngJAi6BQY=
 		</data>
 		<key>Headers/SCITextFormattingStyle.h</key>
 		<data>
-		5soMWV+YuuwDqzW10/JRVhN2mHY=
+		QiLX2RGg4ccAOkkzQvf/tp9vy5k=
 		</data>
 		<key>Headers/SCITextureOpenGL.h</key>
 		<data>
-		Rz3kS3433Smm665Qe1aA9rsY4tk=
+		B1Ub4PHzMQrE34MIVeoJhA3AsOE=
 		</data>
 		<key>Headers/SCITexturedBrush.h</key>
 		<data>
@@ -714,7 +778,7 @@
 		</data>
 		<key>Headers/SCITimeSpanAxisBase.h</key>
 		<data>
-		jOg86jYF0CwaMkh5KEw3mw928Jw=
+		3jSdR0JIEwhf45aW7MwjH2iiMyc=
 		</data>
 		<key>Headers/SCITimeSpanDelta.h</key>
 		<data>
@@ -730,27 +794,27 @@
 		</data>
 		<key>Headers/SCITooltipDataView.h</key>
 		<data>
-		s44p8S1NsVXTaFtD2aGnIJ62i/E=
+		VV6MUM8wdEchFF+jkxaMmS1SYmo=
 		</data>
 		<key>Headers/SCITooltipModifier.h</key>
 		<data>
-		evkid11eBW/H4V6aCmqn0FX7OXo=
+		BZKIXp89785wql1AEzxYo1hHGeY=
 		</data>
 		<key>Headers/SCITooltipModifierStyle.h</key>
 		<data>
-		cY3W5fFDZsZ3D0BxviLteT4QngY=
+		FfEzDcmy0HLbv6nqhtI/Ag0g4S4=
 		</data>
 		<key>Headers/SCITooltipModifierStyleBase.h</key>
 		<data>
-		u5DFw+ksbvP49uC14eEbrc4ATxo=
+		s8DRspyBh2Z9A98NNaRCFRFiiy8=
 		</data>
 		<key>Headers/SCITooltipView.h</key>
 		<data>
-		rjmoshSJUY2oXz07Zd+JN2ZEe0I=
+		cVAGsIi8txKicdtwzc0e0oan20c=
 		</data>
 		<key>Headers/SCITrianglePointMarker.h</key>
 		<data>
-		SIbvcS2xR5Mpr84YG4p+eFVV4WM=
+		5Ror12wNGqiQHwybEP8CZvJddGA=
 		</data>
 		<key>Headers/SCIUserDefinedDistributionCalculator.h</key>
 		<data>
@@ -758,47 +822,47 @@
 		</data>
 		<key>Headers/SCIViewportManager.h</key>
 		<data>
-		1y6q8m7FvwzcaY7Ejn6vnzMjvMo=
+		2W7l3UuoNQ7tksvOBnfwIY47vak=
 		</data>
 		<key>Headers/SCIXAxisDragModifier.h</key>
 		<data>
-		14R58mir6gKsGzMKaJ00iU56QyA=
+		RRxHYexkQl+3fjn2sgy54V9KqLU=
 		</data>
 		<key>Headers/SCIXyDataSeries.h</key>
 		<data>
-		9jE/9xvFiET8lMYhPMDBMtLDyq4=
+		2MYnKYTRfSorJ7A03lIJ3hOTk+U=
 		</data>
 		<key>Headers/SCIXyScatterRenderableSeries.h</key>
 		<data>
-		zHvY39i/kU2S/ye82+4H68fJ7kE=
+		2oJtHuztbsv4X9iVRV997wbMSsU=
 		</data>
 		<key>Headers/SCIXySeriesDataView.h</key>
 		<data>
-		EznD0rlZE3dD/ujVIvLIVKdhgYA=
+		nnIPyrwbBiG4s8XZ51H+p9bFO7w=
 		</data>
 		<key>Headers/SCIXySeriesInfo.h</key>
 		<data>
-		J4sPO07P0glKtr+gJ+jkL9QyMlk=
+		XRTsfqfmK1mwCEE0YfiFKM9J5HI=
 		</data>
 		<key>Headers/SCIXyyDataSeries.h</key>
 		<data>
-		qsLu1Ni2SpnRYsaAn6R7EwO2fDU=
+		HrtUunVZmrlTyyogzpG5fuuW4JI=
 		</data>
 		<key>Headers/SCIXyyPointSeries.h</key>
 		<data>
-		6OlvK+aerj/2tw4N91ygpND26/U=
+		Y98j63IQpmj8bjqnJwiUx/4R4lA=
 		</data>
 		<key>Headers/SCIXyySeriesDataView.h</key>
 		<data>
-		wke4Y/TXQtyrinQxg6z29X0jIbk=
+		nTrQHL9X/tYkMe19pYXiZQAZhDE=
 		</data>
 		<key>Headers/SCIXyySeriesInfo.h</key>
 		<data>
-		NA7xflMxaD+rJVhOBb0Pqge3nk4=
+		V8ptQFwmO6HtSoCov6vENVBfNRw=
 		</data>
 		<key>Headers/SCIXyzDataSeries.h</key>
 		<data>
-		g+WCcIpDKompMiQCCm3IKgoEBic=
+		keqTo3HSvfovHBFzxQbdUCMMjf4=
 		</data>
 		<key>Headers/SCIXyzPointSeries.h</key>
 		<data>
@@ -806,31 +870,31 @@
 		</data>
 		<key>Headers/SCIXyzSeriesDataView.h</key>
 		<data>
-		cyUCQfOKM+rrZ6yxP6AIVnl23SY=
+		pGCcml8MewF+U4pkGXzC/cLheRk=
 		</data>
 		<key>Headers/SCIXyzSeriesInfo.h</key>
 		<data>
-		BMo5QdN7JLnESjpjcfQ7C3IrJA4=
+		qiGcNnX3UacxJKUaW5mXOAjQgCo=
 		</data>
 		<key>Headers/SCIYAxisDragModifier.h</key>
 		<data>
-		cU4fcsgDLHPDRw9AfGhiJMHc8hM=
+		dCFXN+g1fRfRxL+0Ki3wSfGU+Js=
 		</data>
 		<key>Headers/SCIZoomExtentsModifier.h</key>
 		<data>
-		Fwbz6pj7XQwpvziY+TZUxCIxUps=
+		Ws2v7iG3mCMDhplrqKsuCTo3SuI=
 		</data>
 		<key>Headers/SCIZoomPanModifier.h</key>
 		<data>
-		8OQfbb565EMqkDU6GSa+bcJ2VeA=
+		kJEfrQ5UHtjsxaXdTUzXDib9A9o=
 		</data>
 		<key>Headers/SCIZoomPanModifierBase.h</key>
 		<data>
-		6ibO5DNxEOkfY7wc/m5xl7blvkQ=
+		h/WHf/C2GaRaEkBM2fTV6VjtHm0=
 		</data>
 		<key>Headers/SciChart.h</key>
 		<data>
-		iAeqKJIYhw1m4K/5JxiQ5xmWHEw=
+		J4llNb5T4Nz9YZoIASnNyHmRAts=
 		</data>
 		<key>Headers/UIColor+SCIConvertToHexColorCode.h</key>
 		<data>
@@ -838,7 +902,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9zY2mwFf3jfUWdV+rdL/apvFJnM=
+		pDvr8tj6Pmp4rjQeHwR1dG1ayIo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -846,39 +910,43 @@
 		</data>
 		<key>SCIAxisDataView.nib</key>
 		<data>
-		t7cbSolHyd6vTBZa5z2VnDr3dag=
+		j3FFiXu3W20ZrRw7Fkixu5AyasM=
 		</data>
 		<key>SCIChartSurfaceView.nib</key>
 		<data>
-		P8AI7SsaYuvQcWHsXVBiJ/wdXR0=
+		djArcpPXTxLiSHygIZ9WbZX/pk0=
+		</data>
+		<key>SCILegendCell.nib</key>
+		<data>
+		HqymEm7XTDAGapuZSS6c3br1yA0=
 		</data>
 		<key>SCIOhlcSeriesDataView.nib</key>
 		<data>
-		FziEBzMGil2GXrpUBOmP2M+PDNw=
+		Nc1tq5rK53okTzrreCJnIiQVz7U=
 		</data>
 		<key>SCITooltipView.nib</key>
 		<data>
-		2Y0h/mWsmEiFajyC1Id6QMe0RIo=
+		SRxew2PhcB/mDWfJPpPdflDjUGM=
 		</data>
 		<key>SCIXySeriesDataView.nib</key>
 		<data>
-		lGDDgOl22eZSWz9PMJODhaGQTGQ=
+		RvhkrArb64UndeNf8ull+hsBHSE=
 		</data>
 		<key>SCIXyySeriesDataView.nib</key>
 		<data>
-		p7qtkLM5Ir/tj86c3PNvgXvR57c=
+		DkhX3L9P+4e69sdWwkUFgf980kI=
 		</data>
 		<key>SCIXyzSeriesDataView.nib</key>
 		<data>
-		346eWtiNfRP30Orlegue0vTXVWM=
+		qf+r3ETdT8O2yLZTfx0j48osg98=
 		</data>
 		<key>SwiftUtil/SCIGenericWrapper.swift</key>
 		<data>
-		CTpTq/APav/v6gWo3A2m3i4w1QU=
+		WLP0hhx7BGqmR7oZxvUJS7zCYQ0=
 		</data>
 		<key>WatermarkView.nib</key>
 		<data>
-		9p8mBfxopv5jDHBL85RIhzOpP0I=
+		yDkv7p5MkyRvuTlW1KDZ4feFI2I=
 		</data>
 		<key>watermark.png</key>
 		<data>
@@ -887,59 +955,70 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			m99WUmd5v5KShGbs9HHbxtLYw84=
+			</data>
+			<key>hash2</key>
+			<data>
+			nkWu3F0PhYkoe/j3HOJd0mGUktuyjmUo+cyBWBgD/cI=
+			</data>
+		</dict>
 		<key>Headers/SCIAnnotation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HxYbeLITkMawqG49X+LXPnioljo=
+			9YDTbc+OUmnH+x2S7NwPhgn2aQU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+yzx1S+yPb6ONRSnxBfaGv8RZZ9o5X3kmbXgSFWUogw=
+			efKONwzK9qS0zt1AaqA6BBs6gbF6vacR5oDFriDKyAc=
 			</data>
 		</dict>
 		<key>Headers/SCIAnnotationBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6+FVGU944wZzwLXqXpU8i+nvoCA=
+			0Pl3GRdq/uEv3b4EJDROl/WqbxM=
 			</data>
 			<key>hash2</key>
 			<data>
-			jyxjQfzYS2hSJvCsbxholvPGApHFSL+deD82Nubaaqk=
+			VYC4B8uEujeMpgO1ojaiyTvTBlYoXLFXzM7Sm2AyRJk=
 			</data>
 		</dict>
 		<key>Headers/SCIAnnotationGroup.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Re5q1M8LXXR2jok0TnW4Tkcsx4Q=
+			jrUxthMdIhx+Mazjy/EYhhMnpmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			FrpNi3wJr6SwoJQLARtryVL1UwQKUMHN4YgbvOvhsQk=
+			BRwSxyc+Gx0Mz3BeXlNkiRffuIYlTW304M6iAWcxrds=
 			</data>
 		</dict>
 		<key>Headers/SCIAnnotationStyleEnums.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			84PZ64tx/BHKZnJW4uGJlRcfPXc=
+			epxxXjD7ni3EQAh0b0NWyfCNYMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3+cIb/LibCTZB7fWo3EpOxg5Fbh41kSiyg/LAXNPr4g=
+			8cG1NusJMrxK9gTqEnXwYKnF89SQoxAzQsAB9NpvYmY=
 			</data>
 		</dict>
 		<key>Headers/SCIArrayController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YHatgFAGgssWX9N0MLFxOkORa5M=
+			wN9NPqK7PxaozhMEibhSq2/RlCI=
 			</data>
 			<key>hash2</key>
 			<data>
-			LruF2ZQrLvWcuh8SkOODdNoskHBw0snGVBVbGmVwjqA=
+			OlG2mRwxjXzuUOCfVfp5Fy1BIpTpCgNLBhTHyNsarT8=
 			</data>
 		</dict>
 		<key>Headers/SCIArrayController2D.h</key>
@@ -964,81 +1043,92 @@
 			u0zI3TK6WUKXB9qpndE8RpfuXwV9/Ex1qFD2/DALEmI=
 			</data>
 		</dict>
+		<key>Headers/SCIArrayControllerProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hBfYaelUL2srg+aHpuE6ioKFuQE=
+			</data>
+			<key>hash2</key>
+			<data>
+			7gQyAxdmbn63eTntY7cAWyi5peMGJiybmEbEzgTauss=
+			</data>
+		</dict>
 		<key>Headers/SCIAxis2D.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oi2718VQW7qgaGpEsMUzl1zioc0=
+			TL1K+neF9Ch3E+lYZ7JJwnZ2drw=
 			</data>
 			<key>hash2</key>
 			<data>
-			JypgYtKR5eREjTpBoM5g0GeeOMGkXlk56NHOzITkH90=
+			CNd6IHI1NcoS0Al6w0ahHVXcUk1tSH5Fd178pSlWMtg=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisArea.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qd5VHn2y+qGx/yaWrAWQLlaQrRU=
+			3yrALalqmbIk82dcTioXH9osP5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			H71EVDKFDlApDEn+nVrPaq0OX4JElcfSA4peMMtm0sE=
+			Qslbj8kXFmo6faTW5tjkwgrm1qJmdu++Cr0S40fQfCI=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisAreaSizeSyncronization.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nTNCi213wibdn/dIjgBJeQ8I1iw=
+			75kOswRuYbQ9xRNbKA27bl01Pb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Df90N+SOnG4rxs7xDQ+TnE41VWbhMPJjFSjcTp3TX8=
+			esKc+UqrJJlPaGYePlC78x85RADY9HFFkC/A9J1lfbU=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JukFK9GzkF0kXGKjtlERDFHFZ7Q=
+			G19rXeIBf/IFVPM07JP/hqe5Zmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			DgbDc72tyN1+kv4IzImKzajcwOUgS0oAegzodxzLCCk=
+			K/Sja6pGFmWFnkVZIakMg13P2Uqv+wtz5FYqDo1D5Yo=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisCollection.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NSPpXraVnTGf5zXjAiw5c7YKS5M=
+			RjMlDhQGPXhA+hyZh1qZLV4e9nk=
 			</data>
 			<key>hash2</key>
 			<data>
-			gTM7Uy2mcGnaNmjoe7He/aDXF8tZNorYRUM/55WqSaU=
+			orlBVrHvZpCp+2M9acU3kVNrk58FLs/Uv995YSaYK6s=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TqS1iMrKDAUJNNW4YwjRmBdBeO8=
+			PVIJbshVguOlj6qNxnOacFCepnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			+xMjje0BuWCqyaFBuCq/0LqiCbnY6yQfFBvtsP+nSKA=
+			LdVzJf8SAVuHhvVvRLVnprCPD5c3fhl5I6jZCAd/VRU=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisDataView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vgnXb7Q8e+lshhnMx1B/jkxuTYg=
+			W6AIBDhBjm43MJ0uvBujBS9Dh8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			I6GUo2V6cKeSNrtGrZNKuOewX86UWvgPo3ObhHhzj+8=
+			jpguOn7gG068GqGjsJ5fXDbNLW0DphsaOkgJ3A8DiLA=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisDelta.h</key>
@@ -1056,176 +1146,176 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FkG61umlEkn+PRtB/NPp4ot7Lq0=
+			3RZFt1w4YkCc0r1qOMU56PzifIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5qYhUlKQ8eQiW0a5iV9bRk08G0zZuVBxrjULocrWrJk=
+			Qg7sSk7PtTeAW735HakFNlXnp1+Sx5FAlb3SRCEkiOU=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisEnums.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			th85pPkZN8qvy43CBEelKZjAz38=
+			LKFKq7yCT6+pxI6BVr1r8pr17gI=
 			</data>
 			<key>hash2</key>
 			<data>
-			SJVHcxYknuMl/T+MGTu+1tPv1r+ISUrSvI1g+Uj6wM4=
+			UboxmtGu/nGkvdk40CS5pJxcBNT9u1J0Lr5+EPsxdhQ=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JFXxYQ/e62HBIcvmzlcjrFgs1O4=
+			5IeOTQIqOuQQ1euawkvqhGutY9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			GUSTsf8BOw1UmE5u50auJPn2Tn0gik0tEuymEkq6PUA=
+			06OpJ9nsX3vbd7IiBACu385J+uhui/bkm5uwV/YsT/A=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lJlh2hNhbjtAcidqn8zEHtmNn90=
+			rcj4QhLLWb7N9d0YaWC1qhKreLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			bieIB2AU4knjOAiyX/XAJmFkexgosJTG7LvBy4t8dCk=
+			Ysrk6yPVbSFJsPtXMz1m6djiNsIGnJx6VJgAhL34j/U=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisInteractivityHelper.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aq7XY0YTjU07/EhIVL1RCYOTXn8=
+			CNkNkN/aBu+NLYJ8h9p5tmjcCUU=
 			</data>
 			<key>hash2</key>
 			<data>
-			xlQdwzlQswVc0ggQNlKAxGdkiBWB5CMTVmMvgzgN1B0=
+			24p1cdSa6ElAFOIPWFOnGUJ04gz6I/uAwX0YRmD/ZBE=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisMarkerAnnotation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vgQVEVZJKQyMnZRQw1uXMwkSELc=
+			wosyIEKwrnFzRJKWki3MUphE3hU=
 			</data>
 			<key>hash2</key>
 			<data>
-			lxiF/I9i+yUZA5IsrptTuyKxPECkb0kd3hpgpsb+47E=
+			Tfn5Yqa6x1xdHm2qO+JUA8w86EGyquvuFHiVYdcqcQM=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisMarkerAnnotationStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TZ3L6OLIPvJFNuBuApa3xee7Tno=
+			QQJ+UcdGd3kY+1RHvX3eaDJ3PUU=
 			</data>
 			<key>hash2</key>
 			<data>
-			9vFjlrhKtm6oviLwMsFQL0Gobxi9qU3S3HCyRyhNkJU=
+			b3gEiKnhzX/IdxO0nTdO15HkATG98zbQOdrCe4NWIvs=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0o+XKH8e3H2vPV5vwokQ17BZcb4=
+			glv1U7c1siIllPP+xMz8sPg3Qyo=
 			</data>
 			<key>hash2</key>
 			<data>
-			eu5OzKGNgqvXHkcFNhAMAZCZatfRrlHRR209YOdKQsM=
+			wGkh6Z6H1Ch9KCFBipr8XZucDDojSqOHSFtefh6qUa4=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisPinchZoomModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kE9Qn9phxYF9d2ZDTInyOqZIoFA=
+			+cBO/jhJSg9qB2FnbTERBaQ2jcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			9wEmxYZeXZwtXMapOkdbElab1Cg2mnQRdzeyC3902Xg=
+			3ZsdFKH8+T7w3u3Y+V4uWb/aKswhi51vBTS/tCkgaXk=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisRangeSyncronization.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MY37UYr7+yJapdOPBvmA6jlH8I4=
+			BmOeYWpa1OtIiUNyDgQuR6P8TP4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XF5MoVGz6zaGq2fdALDpqlgCiSn+sTAayjrQlzOmwHg=
+			AQdtsLwkXxV7uZTY+q8Nq91+7ODiR8v4/2mJE5rn7o4=
 			</data>
 		</dict>
 		<key>Headers/SCIAxisStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CdQB1B5WnyhpZRBVxLaNP6RFE0M=
+			3GnDKOXqjOvdt0vW3mObcNkksGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			0IcCsHZHws2ElZS7s8tfFJWBnLmi09nKkLJbhcHDJzw=
+			4MDrtYS2B1f93gNbLvL9TLP5gif8khPDTRpA1/6f4Co=
 			</data>
 		</dict>
 		<key>Headers/SCIBandHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jd08ZALj+ANmeui5SOM4PRvi+4k=
+			KxA7/msIZcbAbCH7xo9XYRAivT4=
 			</data>
 			<key>hash2</key>
 			<data>
-			HcmuRU2pcNgl+TVnm93LXdIZsD/NZh+V2iQ9LHI1WSg=
+			SBxoqg4JBYBDGHpXYXfMtYLmay1P+kjaeb71dUd101I=
 			</data>
 		</dict>
 		<key>Headers/SCIBandRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rGPJAwGzQ8m5/jYAdxlCXYfYPYM=
+			GaLDu6DhxGhpwcmNCmWgqYjUq60=
 			</data>
 			<key>hash2</key>
 			<data>
-			oyQ5ZoI9H1U/nsWCdol8bRR6eyCQDRgpfwsVX9J9MRE=
+			5w+OnvaF5MfWcwIfxDhQxQF0H5iXUiCRk2XrD8XAI20=
 			</data>
 		</dict>
 		<key>Headers/SCIBandSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GUUmMxorfhUPe/7anhD7Tm/YzzI=
+			tz4spJnEl/tqPkT4pjn/PTQRMD8=
 			</data>
 			<key>hash2</key>
 			<data>
-			p4wH+QoP9rY9DrhQ0pkAtk6bOPcOLt3S+qbu/YkX+Xk=
+			L+9VVZqKMHvk7IPBNLQK5F1JJ6g8ODQj9Z4g46/QIDE=
 			</data>
 		</dict>
 		<key>Headers/SCIBoxAnnotation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qsqzt0K4PhEfRoO2sL7GzfKJ+bs=
+			KhTlAJKOO/meyc/TJBumCJcmhTc=
 			</data>
 			<key>hash2</key>
 			<data>
-			pw40OCC/MocBuahhCq1ZMJvm6mhaYfptmCtSmktgbQU=
+			pgoGRg+fImPQlWe45RXlcsBrZoAVdliq5z79vpiOSc0=
 			</data>
 		</dict>
 		<key>Headers/SCIBoxAnnotationStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lfOMawgtXWMuyDbzOyCdw2zGSuI=
+			isjPa8fpUUZXSbSoS+rUFRQbIDw=
 			</data>
 			<key>hash2</key>
 			<data>
-			echn6R2g8pdQ/hNI7kKrXC3s6u4pQq20IxYBJVbsfe0=
+			vPM1D/Cq9q+7EDkuljJ1KBlGwPD7cSDGhdZkDD/mkN4=
 			</data>
 		</dict>
 		<key>Headers/SCIBrush2D.h</key>
@@ -1298,33 +1388,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ezskxNWrYKEpsfBqJUmtnMFh37k=
+			/zOdAgo+PQiCDdnXomiBdlG+u8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			LZ9Tyajh05wdjvHEDJoLQKDRQLGP/zI5zcbhUQxFd90=
+			lvmOVi0uvB2b3EMHHmh3tCpQaIs/OTEYt8tw5XFguEs=
 			</data>
 		</dict>
 		<key>Headers/SCIBubbleRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			drAiwzd3fyq/5g3hNegk894Y8wU=
+			jGaAhy1mvTt/NZiyN3SJ4XeapYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			QPTfA4kDIHgyRObkqcenIRbLdvnQBLLIYEI2zSgBdFo=
+			aOUdBtPtjMxTUTnSYzL3Hai1FwAA9UQo06OIYThhpvM=
 			</data>
 		</dict>
 		<key>Headers/SCIBubbleSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r57Ykt8jwaEIl2kdZfEJC5WsQps=
+			7fz6gPSJvcVU0df4apZyucBylLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			aueVB2JUeipgZu3Sv0WPIKOD08/ueAwnzAUJ9Z3hFo4=
+			PP5ElpqPjHrkgZ7vo/T1hCZUMn7ZYLOFI6rkpdZoJMM=
 			</data>
 		</dict>
 		<key>Headers/SCICallbackBlock.h</key>
@@ -1364,220 +1454,231 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2THQuixfQOEq7dRTyvDsfdz4dBs=
+			NunCDVgAbTyJfZoodaOFLARtmfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			N2O7enSLSSZp9zvBvQRSHYAt2oh7PmDkk/VU9AjNqjM=
+			ij5/L8rusT9AzldDN9dNWezhgsv6KgtkJadiF66kmJI=
 			</data>
 		</dict>
 		<key>Headers/SCICandlestickSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/HvVOf29WSmNXKxvNKUMjUjMay8=
+			yI0Ejt5L8eIMToCoaTrLLkDH3+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z+V8CNw/HpQJmo7j7r1L+qQvwFvKQ5gTvUw8aV6awRc=
+			cR+iftrybc1CgOgFzOaF/sbxi2GLzYN0WqDrittu3Vg=
+			</data>
+		</dict>
+		<key>Headers/SCICategoryArrayController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c7sIjgAar/tN4S5xCwg/XQnjISI=
+			</data>
+			<key>hash2</key>
+			<data>
+			feDUWzedGrc4ZriHJLTw1EU6MQzTRWNkCxF3ibXqO+c=
 			</data>
 		</dict>
 		<key>Headers/SCICategoryCoordinateCalculator.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YVO5ck3fyX0vrqo9LbWKqmIqGCc=
+			eu32vs9dbWIVsyDbY4c7w1kBhCc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AHVWDayribhzgesoQEZcJeo9scpSibOFJ7ykszjO3a8=
+			WzXuYJGQgdCKHmVCWBN/uzd4AqptQLNdA3iDExKG/y4=
 			</data>
 		</dict>
 		<key>Headers/SCICategoryDateTimeAxis.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OPPngAboz+mKFO4oZNMpeCmvs9U=
+			XpX4tyNBB52txMA4MvTH4QBOPUI=
 			</data>
 			<key>hash2</key>
 			<data>
-			l4CwJLteN2fRI283EnUKyd/yax9VMWJFm0cJCDTE2Ts=
+			OTrUx70zSsfEffufnknxztxeYpJQq2vQrGBXPKMj5wo=
 			</data>
 		</dict>
 		<key>Headers/SCICategoryNumericAxis.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fCOEtqbzHamvPikGUQWYIX4E+LY=
+			LpSBSvYxxHmNHS8fo9RHV1EW2SQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pk+GF4s0mENYbmruTDhg592zHjHod6T8kDaXt3+VMEM=
+			Bb3qQNEkXkgYAk/6PxOtBEDuVSnn0t6yjPWtUjY+wIs=
 			</data>
 		</dict>
 		<key>Headers/SCIChartModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7oBcmtM/e77r6ScOghQi67QlmF0=
+			3P8rjFFIk8aLmPf/CQg7A2XrVlw=
 			</data>
 			<key>hash2</key>
 			<data>
-			sO18hhOl/Pw8H9Dj7Y0fju1PV+vK/W/WyqBtV9leS5w=
+			vDjstBSCUuyEfyz3f+61uRsXZNo9HDmaIkzRC60T/cY=
 			</data>
 		</dict>
 		<key>Headers/SCIChartModifierBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N6mgQ6+/mYh5t2LDV63Hc61y4mw=
+			5pbAGJNpDWNUfPL7PEowQKI/b8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			rlOi+JFy8Rv5KW+jXpr60dbQFwvnaEDJVpR2hCCD1n4=
+			ZNhg36EAHAzwQxWSap/twaCPftFHJQMTCDzMVi2z4Hw=
 			</data>
 		</dict>
 		<key>Headers/SCIChartSurface.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kMGeF9v1xlzDaitJfRfUGqwnqC4=
+			RhY+vCQ2IiKPxrRuOYRWwOA66jQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			8pyUas3Wx399bkDjn5yehE/+5zDc2k/90rEFr2h4pAE=
+			N4CgIZs15bWe05YAX5LadZvMT6AQnJ00B6rJWWXzsF0=
 			</data>
 		</dict>
 		<key>Headers/SCIChartSurfaceView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y4Bit8H8VNIxirRK2m4v/UPINOI=
+			S4U1kr4NJ6NFmjXs5YFdu5cS6Xw=
 			</data>
 			<key>hash2</key>
 			<data>
-			SmTIoW4WToi2EXOdz0EG5QcnqXQD3zL6y9Mfl5gdFJ0=
+			opJZOePI/h7o8z1WlWlGzJzHBSnusAqAyb/9PPwd0GQ=
 			</data>
 		</dict>
 		<key>Headers/SCIChartSurfaceViewBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8oMpTyxOAA+I4gbnA9EGyDmQolU=
+			MmREXdt4q3gG7t/KTAjSbFXXSd8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ovtAIA+dGtwDQCW6GB2Haqxv8rpJMXBB/fbhoS6W8xY=
+			QFInANoqbRzOsorrgwxUW0OL0i1oeauD7IGbMJQUi+E=
 			</data>
 		</dict>
 		<key>Headers/SCIColumnHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dy+4qAq/kUF3hvG8QMh3udsqmMM=
+			YJrbuFDMr/l3SAAMy7aVzBsxl3I=
 			</data>
 			<key>hash2</key>
 			<data>
-			MC73Pl/SWRTfYyXflusSJ7HeUpQgCEFB/BVhylihXwg=
+			2QgvtV/6r/rRhNw3kvs6HBOx4otxLIrRGLn1r1AndMY=
 			</data>
 		</dict>
 		<key>Headers/SCIColumnSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ydK72PUr0NJU0zxIIEnH+Gwf1ec=
+			ewknhbaWHxU9Nvu0ePmhAjjLOFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			dwWEngLGJ4NX2JcTtaniArIHg5EXowDT40yC06lI2mc=
+			/sH1/ViGG6Pj0BcWUxdtmWqDSN+/HVn59Op0BPuppKs=
 			</data>
 		</dict>
 		<key>Headers/SCICoordinateCalculator.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v+E7oh4/0rEb/tZQAh8uxgy3D0o=
+			D7Pu2yHz8maLW6QcobX+6aSKo4A=
 			</data>
 			<key>hash2</key>
 			<data>
-			aG/cB1yOeMSQlKweVcRAgAEcqqcNok0aOC0cjCwY5jw=
+			zOdtmB2i+xCXn9acNiDvxVqek76qg4PJNRKknNRaPI4=
 			</data>
 		</dict>
 		<key>Headers/SCICoordinateCalculatorBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LXgVCOqU+IkJ7Apoe+ZN36lEr2s=
+			i08fSJsxhJk8WRZ5hoM47eHiK5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			j43zAVslPBrEDZdfCrZrDnmrEjGW+21dc18WoFlA6RM=
+			4EOL0Dpi04/vi2wTMx/x9IIrFIfpM7Hqga0EeVrC6MI=
 			</data>
 		</dict>
 		<key>Headers/SCICoordinateCalculatorFactory.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VxLNHMJWsSg+rvRY0WnFnKHSSw0=
+			ORvTEwSc99mTWW3rZBhzN4ZNqOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			0sftO/48QfXP2I+TTE7MLE/h2bDpTDOBfo7ApyPRFQ8=
+			134b6nArcXAN3nmc7hvXMmZ/jJnNgpw9AxSVqN39C54=
 			</data>
 		</dict>
 		<key>Headers/SCICoreGraphicsPointMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hn0fBX7Td9YYDTrqeT6NBYkZ3mc=
+			qtJApsxBxBqWhs927q+eJ0SThg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q9nSaWC8w6s21q22CCltWOu2WIHvP2KJ3pLhs+MwyRg=
+			chMaruIV9WKUDzk4B70TzwwqXyo1Q7ORfgalDFu+MrM=
 			</data>
 		</dict>
 		<key>Headers/SCICrossPointMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FwDkiZlJTBcYYaSYBf/f/PAFmtE=
+			PVQCmyIBATcX1L/1ZUjBClZniv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			N3n2hANvxYDkRXssXEUKliHeN2NhNAPjY8DSg81nj3k=
+			Ojs/VbybUU8WvfKGA7cJPLTHbe2PQ/2fiW0/wkhqN9k=
 			</data>
 		</dict>
 		<key>Headers/SCICursorModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NDroo5/DNAhHk5+Agr+bKAiybzE=
+			YAidsu7trY89Cekq0wwQ16IYCH0=
 			</data>
 			<key>hash2</key>
 			<data>
-			I6CH5wT/sUUPkL63gedIaTwwM4YeJhpP5nhcLi1DTYI=
+			izCv/N3riM8TMtg1+2LkO15i5+7mvXxBXovUIx5t/js=
 			</data>
 		</dict>
 		<key>Headers/SCICursorModifierStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s+ybwxXPhFoz+ltqPAkhfTztUIs=
+			wBNj5/Dvx63tXjxRj0WqQhhfmTo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ss8S0Stoa6jsyvNowol+kkicVF/G9bczUWc92povmUM=
+			rK7tGiKzNVUAfMTDpdcv0R2fE2EM6pMdRcaYGDCrJfc=
 			</data>
 		</dict>
 		<key>Headers/SCIDataDistributionCalculator.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EXQmIibx8CndYe19rcwe2EK3Jog=
+			l9GUQTRf+vMMwJYhUj82c9GZbq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gc5YQf8nYku/q5L1QcP9/AzykIuFtJiTzAnODvpiiPY=
+			/y6ZIqi41/J+S7+RawFZwJRE2qfMRsJnY+MEOJqE8j4=
 			</data>
 		</dict>
 		<key>Headers/SCIDataDistributionCalculatorBase.h</key>
@@ -1591,15 +1692,26 @@
 			DZIf6WhGrPCvE41FPQWcuhVTXpiOTiPaXNSKhDn5jhY=
 			</data>
 		</dict>
+		<key>Headers/SCIDataSeries+XColumnEvents.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QIGMxXvJap+qln5f3juqJMmwzYc=
+			</data>
+			<key>hash2</key>
+			<data>
+			9eotuH5COK26Q9kP8qxRB/q0T0KRUjSCSTH7jrO5pRw=
+			</data>
+		</dict>
 		<key>Headers/SCIDataSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			42aWir6iWkA19FK1H7ZxrWDCw80=
+			RnBg6BVdWrZof8dOHPgC2bRPvcs=
 			</data>
 			<key>hash2</key>
 			<data>
-			HwJBKerCwwSGdugqrePRFMqmYEwwT2oxy9HqPU9BUAI=
+			kQeI0R7nHelDNJCK5S7NQJsmgwoKOezxZ0WjSvQpNtk=
 			</data>
 		</dict>
 		<key>Headers/SCIDataType.h</key>
@@ -1628,22 +1740,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			py0KRGbdiD1R9GpItGBUqca6Gk8=
+			q3xWLGCPhzswCXXREJVkeTpPDkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			pjHLrQ41BnjchtHwvamjWNwCFGWcAK34jI9rrWD8tY8=
+			Bz+G/BTY+SqfEx9Qs3kv5aOvb2xzPdedloLrWWYi3h0=
 			</data>
 		</dict>
 		<key>Headers/SCIDateTimeAxis.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y1Q16Ik/x3AUOvHJdigqG6oqvV0=
+			QpY2xnUM/3lA1UNJwhRYyr+5Plo=
 			</data>
 			<key>hash2</key>
 			<data>
-			nSVbWuWKeLALmk6FQCe7XP4SpLlPkkzit13iHX18Gbo=
+			90MMO7vJIQLI5X38Cw+Fkqh3S8BemYWVyaXRjE8F+IM=
 			</data>
 		</dict>
 		<key>Headers/SCIDateTimeDeltaCalculator.h</key>
@@ -1716,44 +1828,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pcJMmpCX94Kzs0xG2LuHKxhz8QU=
+			lnh5gpsCAtaXqAtphp8Yi0O6+GI=
 			</data>
 			<key>hash2</key>
 			<data>
-			z7BgUHoKLMz9lQRwi4E/Ff8kHeGx94kPSJzyFY589oQ=
+			HRUZE1HrQRfSWXlyPFXmLsMEesrq2+kRB3sg0+nofBU=
 			</data>
 		</dict>
 		<key>Headers/SCIDoubleRange.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YA3LaHKBkwZCpV0lbixwIZgh83w=
+			xL8weQJ5JZmsb8OtoXUzuGRfZuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			r8/Ob/Ydd3B8m1NT9v9IlkNKoCIWOQNuqoDqhAK10G0=
+			7gWTnE6IM71V3twjIRVPz/IYdZXWQyPnVFClkz5CCX4=
 			</data>
 		</dict>
 		<key>Headers/SCIDrawable.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sQX/AvYee11zzfckNEJ14vEFKSU=
+			FEIHKY4QYW6DE0OVWv0LH5vTgaU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q+DWj/4Xx+ywJ9ObUDT7yDU1koRxqVQA6n2g/td4qh8=
+			eS3bfrQqGnfV4YBwKOVX7p6K8hypf79Ra4JqydbDWEc=
 			</data>
 		</dict>
 		<key>Headers/SCIEllipsePointMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H5h7RbVwHQcVf1IfjjH1A6n/PHg=
+			PN+/nzYkErNq7m9kuL1S1tV0ioM=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6yl5Df6j2EXerNVHHKJefIGPuLMiP7C+KqcJPcsrXQ=
+			EJbRs65opv6s1Bjz4tPFQa9FA7MDxOV/bkogMNjbHUs=
 			</data>
 		</dict>
 		<key>Headers/SCIEnumerationConstants.h</key>
@@ -1767,81 +1879,114 @@
 			zXPBsyeo7aYMgei8YMj+L9DGa+wlygNCVeooe8ZWyxc=
 			</data>
 		</dict>
+		<key>Headers/SCIErrorBarsSeriesStyle.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qKNviK+QspE/aaITOB87rVoNnNU=
+			</data>
+			<key>hash2</key>
+			<data>
+			TEsHoXAMYauRVM/gieXX0TCJ1PmYuXFJCMyuwxfykt8=
+			</data>
+		</dict>
 		<key>Headers/SCIFastCandlestickRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v963L1khFNF673JDB7SofLXXZ54=
+			xDu5J01PyBxoXo2K+wgFzHUrWC0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cde2Ox670yjnYMWCflrXwuCtDx67ELeSBnfE8Ie1ZFk=
+			g3eGyoXNHWVSX8B2+/DLbL8c8xCM4K/mNoM1dXJVm0o=
 			</data>
 		</dict>
 		<key>Headers/SCIFastColumnRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xs1Rzi4i1BXzWIYmCrslc1A1tI8=
+			gbuBDJUErLPiNohrfbI0lk00z8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			kvGe3vP/TyS0DMQBBynyZietDBv9O391IvmrD+8knGQ=
+			VbpgjZJyyVHNBZ58sa1H0YAuZk64M764WL0ukNuO5nY=
+			</data>
+		</dict>
+		<key>Headers/SCIFastFixedErrorBarsRenderableSeries.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C16w2CkuVoRHuNBV6ZDcjySNlDA=
+			</data>
+			<key>hash2</key>
+			<data>
+			2vq3coMhIZJak9+O7G5TqZSay/JJY/Jp5I5xwhzknFs=
+			</data>
+		</dict>
+		<key>Headers/SCIFastImpulseRenderableSeries.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3wvQEvc2GQeufEPSmDU3l+eKpts=
+			</data>
+			<key>hash2</key>
+			<data>
+			CDJjnOKgrHw4Z9m0OoaV6hSDBf8j6PW7hhyAlRwx5lI=
 			</data>
 		</dict>
 		<key>Headers/SCIFastLineRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z6381az8siJPlGb1mboFpvrOCfc=
+			E5iY09x9mjs/mMZz9joDq94n4Tw=
 			</data>
 			<key>hash2</key>
 			<data>
-			4I7+YBjYRCL6ha3lsOQeZTnBeFI7kcOfGAhVRtUMiyI=
+			ZhHzsdAQPPCZ0LQ8ry3u/1aVLZFvajqXPvdM25fvPmI=
 			</data>
 		</dict>
 		<key>Headers/SCIFastMountainRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XclgvRg9VxnkwzTey0brnmcI1uk=
+			dLKTaOJ5z/V03LVvFZfsB/ofblQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			24Zv28stgrQNH50HfmVEPqH3fS2Ot35UrF1nRoLRPEQ=
+			c8zL7wLsMfI0xme8kHicQP+rM5Q0FCj/5+RMNEK8iw0=
 			</data>
 		</dict>
 		<key>Headers/SCIFastOhlcRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wrS/s/Ab93aYaTE1KTGco7HBECk=
+			1xxYM57fP1qn+7jY5QT3fr571Qs=
 			</data>
 			<key>hash2</key>
 			<data>
-			7JTZDctaf7s+wO4JmPMTi2koTuOSIPpahZ1ngkoyVGE=
+			45Rb6/2UoBXP+WxTDBjSR+d1bNEsmYqqdnLQYXOULfA=
 			</data>
 		</dict>
 		<key>Headers/SCIFlippedDoubleCoordinateCalculator.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nXeGXbGeMDC4ha69P4z3i6143MU=
+			21klux1tirE0Sl0nrLiDXTcFf44=
 			</data>
 			<key>hash2</key>
 			<data>
-			UaLB4IDeEmZ/1RV4DQf398zCm7PPvlF8LVQD8egNg4c=
+			MNSV4CEa4IkA8T3HT7vDV56yrgOBHyqwZjdqMZBQPj0=
 			</data>
 		</dict>
 		<key>Headers/SCIFloatRange.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8gl8FSXM4NmdFSA7HwY51jm0eus=
+			SEXveAwT5nRqW/9i/fSXFZIZFlg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ECG5HUUFGGw97w69KReR6tWUSg1635kiTrsRj1xt3vg=
+			q5gQgPZpX+KyVTidGYGv49HUsdw2AtUs0i6TkOQjnzQ=
 			</data>
 		</dict>
 		<key>Headers/SCIGenericType.h</key>
@@ -1866,92 +2011,114 @@
 			eOd0UKfEgFumFNOMUepBqqWAJPg5V4vmF2uxN/7oCHA=
 			</data>
 		</dict>
+		<key>Headers/SCIGestureModifier.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6rb4STF/AuFha+D/CHITAzMKFWM=
+			</data>
+			<key>hash2</key>
+			<data>
+			YVbfHCPWileHSf+DtqZPc2Yw+Cf62NbrplV8RSAsLTM=
+			</data>
+		</dict>
 		<key>Headers/SCIHeatMapDataSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S6ds9JGqszYqXX96DPKVfZUnlLA=
+			ZvSZmD0T1uWTeSaD65fnrCSsI0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q+9QLZdQ2GXBLT9+t18jy5BD1c+aLsAXi1OeVe1e868=
+			Vm2t2S+Nzn6d9rjkZRqfGajT1YBrboBPVCakazYNSgk=
 			</data>
 		</dict>
 		<key>Headers/SCIHeatMapHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IQJuXa4gUfGtWSoR+gf9Lmb/DL0=
+			mAAcLTjnB3UGxcxvyHUgJgmNCHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			uGl0VtYaN7aKpWVECoP27axUMcH0kkA5Al3Zq/0tPnM=
+			HEO2VAY4isGAkiEFEuSkiHpsQEo+dy9anGqFfDz3O6I=
 			</data>
 		</dict>
 		<key>Headers/SCIHeatMapRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AI3Xgu7qWz5GnECjvs/sywVt4jE=
+			Eq5IXFlu9mUmCouwwZ2D8yJw4Xc=
 			</data>
 			<key>hash2</key>
 			<data>
-			egfZBI3YHAmvceRc5X8hFxwqENBwrhfcuGgprM+wRE4=
+			5uZ8mzCtXNdt+PfvcwgaVoDNPnvQA1pG6hLZsqeY0nI=
 			</data>
 		</dict>
 		<key>Headers/SCIHeatMapSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jopaDnYQ9MyO2OUaYfRR+IyxWGY=
+			yDuPqNDgBmzxC3+XTMOEmHYyoMk=
 			</data>
 			<key>hash2</key>
 			<data>
-			z7LxR0B3/c3nYuark7PkTLBeyks839QGp2HYfiYtFUE=
+			F8U+Kg5qTEuH/YoF2zb6OFX8D+A3/xEkdu49dhPKYHs=
 			</data>
 		</dict>
 		<key>Headers/SCIHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W5eN1+xOTRALTzZRG9WLKSrwras=
+			5nciFBuCVe2J6hRzQ1QaCEmbaKc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZvD12bs+h19c0/y5kaG8OsC6pAvpOfMUbjw1R6QaS5k=
+			/wwo9rDvSCvm9/59Cce9t2G6DJOYGEVBS7dB5s3VXpA=
 			</data>
 		</dict>
 		<key>Headers/SCIHitTestProviderBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tzKlmBHUHfZOhz/i/gcR/nrRYqQ=
+			G2s4UKhhYUyMfKcb1q9O7ionSIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			CE/rmg1jNCQWu0Jd3Rw0N2h2Nk7YzzbWbIHYnDMywL4=
+			NeDlEXeHTU73fH1huFyX0wtcoase+xOJ4qUTSM3Fsk8=
+			</data>
+		</dict>
+		<key>Headers/SCIImpulseSeriesStyle.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C3n8VjUM/tiF23njjKLbJCgmVDA=
+			</data>
+			<key>hash2</key>
+			<data>
+			YL2tKRarSkPV7bcWTElDv3hzF7TEPxIAHp+0UREH1S4=
 			</data>
 		</dict>
 		<key>Headers/SCIIndexRange.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lbfx6K6Q9SwOm5AS77cSe5G346o=
+			WQqS2zYJT2Am8xc4Kb4ye4lrmcg=
 			</data>
 			<key>hash2</key>
 			<data>
-			tJOC1YWBRebVCe6WBB8++8Sp/CObYOSTCygNkxjluI4=
+			wKTtGdZwS/UijxXTwquyinwZ8BMFqLUdVbzrnE+FXVg=
 			</data>
 		</dict>
 		<key>Headers/SCIIntegerRange.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4lGfPumwgzWJAsE++B7H1jeMRQA=
+			pHTJ7N753YrKUR9pzF6vdZCmveY=
 			</data>
 			<key>hash2</key>
 			<data>
-			yNSrNJtr2R4szjRz3m3CqROTSuz3wUIi0t2Rgftuvpg=
+			AzKnyRCR1Dttu2Xt5nK70UQhG3tYk3kGBTRdozruwCM=
 			</data>
 		</dict>
 		<key>Headers/SCIInvalidatableElement.h</key>
@@ -1987,48 +2154,103 @@
 			wLlAg1+wHRg4kPdk7JGVw8eoWWJ3HuY1AHK6zPoiIJE=
 			</data>
 		</dict>
+		<key>Headers/SCILegendCell.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			d5fGQvjwhE30w4rIJcYQrgjF6MI=
+			</data>
+			<key>hash2</key>
+			<data>
+			cfixvWwhRQuEQGt5JuejUuS2vo3IXsReguH0pPtoKFE=
+			</data>
+		</dict>
+		<key>Headers/SCILegendCellStyle.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5QtvH0PfioqNakyFj/+lMrWP/Is=
+			</data>
+			<key>hash2</key>
+			<data>
+			UqSSwwJ4gfJa5aH+vF6jD5mpzSiBPGp+5bX5juAaIZ0=
+			</data>
+		</dict>
+		<key>Headers/SCILegendCollectionModifier.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dZDb+8QrMQnmVIig8E2aPO3LRo8=
+			</data>
+			<key>hash2</key>
+			<data>
+			vKFZb93NsA+o+ljB24zIyxWsVsg5d/HBJWV1t3+Cs4w=
+			</data>
+		</dict>
+		<key>Headers/SCILegendItem.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/HU56FXywBaFzq+Pr+yJJfCDRbc=
+			</data>
+			<key>hash2</key>
+			<data>
+			KiUJ5dxR4fZcii+GzZG7L4Mp1VeiFV/NJpwIX0hzrs8=
+			</data>
+		</dict>
+		<key>Headers/SCILegendModifier.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			miqdq4ziZ+RyWiMs09PTgWsnMnA=
+			</data>
+			<key>hash2</key>
+			<data>
+			pXO9+bc4QZC0R4YGURgaL+N24fZUzudeYbHN1pac7kM=
+			</data>
+		</dict>
 		<key>Headers/SCILineAnnotation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lIMnU5CHLaMPU859ERz5oV7ci4A=
+			bSkxAXsmXeO+wvZEULGrdgtD2BI=
 			</data>
 			<key>hash2</key>
 			<data>
-			EqY3bjicgHytnmMsWQ57lCAIcxSRjwSJyL1hBMgcYBw=
+			KfrN+5RqRzj6jvx1GDPovoIbk6k6YcmCSImmj7zB0Aw=
 			</data>
 		</dict>
 		<key>Headers/SCILineAnnotationStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MOy1bMaCJMTGdJa1sKv0+UjBgkc=
+			gs2dcdSpet0MAUHFSS8GMI65LW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			8xQhkBZjYV7B+ix0L2XRnPJoEOKCqR1msKiEdJoJXGc=
+			ed40uf2QS9ary/Q+l3Pf5bwTK2jNN+4M/YRyyfGcPlQ=
 			</data>
 		</dict>
 		<key>Headers/SCILineHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NrwnvUhpCVp+EczHFNIRj2Nh/2g=
+			tCGYoBry4tKvKkVs2CJ1WuGpgxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GqYhhw1f7C1u1RnzKj6xYATA7by5W+aosF5vE6QTkUs=
+			zLBM+qEpeWo1Vvjqb06oCUywkD61FrhxOkpw4EmDwek=
 			</data>
 		</dict>
 		<key>Headers/SCILineSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LDKxsOwf/8Wr1K7aDg+0kz8cLcI=
+			tKhYOxyqD9v43CM9Ppm/RYDH0uw=
 			</data>
 			<key>hash2</key>
 			<data>
-			DdElSiWHxlobs5vm/VARgYbjkb1oYcGgwXzfHrfqETA=
+			I7cdtEE/EsaxR/cfcjFhHHUoPH1WWLq5vC6rKBl8ULg=
 			</data>
 		</dict>
 		<key>Headers/SCILinearGradientBrush.h</key>
@@ -2046,22 +2268,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+KFqUVKUNWq4fueaC/FCwdAtyeU=
+			VSvYuWRc8n2maQc/r6wyDOpgw7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			SjiSTscTS8uFH1mvHsr9aCF+ZKFSDeFNyJUqiyARayY=
+			mhJHa0lD1F5tq8MRkHWAp9Mw1YZZB3ZoNykdw9vXBEs=
 			</data>
 		</dict>
 		<key>Headers/SCILogarithmicCoordinateCalculator.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			//klAnsHIyqsXGMXQo+VlIiUZ6Q=
+			W5NCSNmSRyMS63Zu5Xc/uU+/xSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			TRYD8mN1aOWPeAnzg8j5BxMyWJI2jSSJZaLRYwetP5I=
+			8osALmI6QKKS99Y8OFXfgt8YiKnrVW90LFDi1HDG8XM=
 			</data>
 		</dict>
 		<key>Headers/SCILogarithmicDeltaCalculator.h</key>
@@ -2079,22 +2301,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RoA8zxkkjQpOLzuo1dOjRcN0JIg=
+			opsxSPvg7TSCn1Urom31KNGoa8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			U6DOsgDa3Ol70OMs5awwH6embIb7kPoeiN2SFyHoUdc=
+			uzmcCytkm0H48DZ7POv06CJKgVv91aOvaDQxFbU1yJM=
 			</data>
 		</dict>
 		<key>Headers/SCILogarithmicNumericAxis.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dtRIPh0qeBSCTIuYUgqjM25XIoo=
+			JxmWoQiYEmvqXEtrdgPSVZpCKMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			lCSPlqUfeYctkz5jXdh5WXa4N97JElbd3qMlG0fJOwQ=
+			bCjmJS5Q+NoWTS/5uL03/9fuLU07Y+7UvUEYyVtsvu4=
 			</data>
 		</dict>
 		<key>Headers/SCILogarithmicNumericLabelProvider.h</key>
@@ -2123,44 +2345,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EGmC57U0vdyfjvD153Q/fhvRZNQ=
+			zvhhQ6xH2ylnhQLXkhjgWMWkEn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			OxbT1QLhiC0vCQ40LgS5aNrTTwdf+NnfyBd7NxF2huc=
+			zi2qcdKnxcykAm4MKZyFtMu9JvqfOe7X/nlkQQFoUsY=
 			</data>
 		</dict>
 		<key>Headers/SCIMountainHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qJq6yGD+6CIJ9oMoIcQQ/6RuDGA=
+			6SMYWn9xOrLSdmlXpRt0F/JRza8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RSqGLi0y2DGcBMUWhSA6bpTTlJrxKdKrJxNJekrGaPA=
+			Tlgmoz0aClCvZxeIw2pzprEhAqUpMk0UiuxqBca1dNE=
 			</data>
 		</dict>
 		<key>Headers/SCIMountainSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wvuMOig4lyYhL0DeFfesXqWEUYY=
+			iQ6UmFCJjW6lJb2l/y7CWO+FGG8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OL677vr5U4FKVY2y2sWj0QxMXfherKmlQIYUoADYR6w=
+			4xfiSf11rbpGRRdZAdt5rw6Gtu5W2Reu/kdcHYAZ7VY=
 			</data>
 		</dict>
 		<key>Headers/SCIMultiSurfaceModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JJJRVwZp8c3nP46SCntpgFSyY90=
+			Mkgb5SOHXFyBSHe4fsQ5+IAQ3BE=
 			</data>
 			<key>hash2</key>
 			<data>
-			V0PBwyp8IzjAJ5LhLgqTOSXXfASSdcyvGd9EJ0XP800=
+			liGpFzM3cFXwORT+Gp1/T9q5TbSrebxHCI2DPg/XVCM=
 			</data>
 		</dict>
 		<key>Headers/SCINiceDoubleScale.h</key>
@@ -2211,11 +2433,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ce3xr0q4Zx8DKE3t8IvK8YlMYgc=
+			HiN/M82JjsHCrjwOvXtL2xDFbVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ggmzdNWd9mh/SCZ6x+f+JPxajqG1Z1QiA3jcrs47f0M=
+			tcgwQt98tDXLaQVVjPuWg8Wp6J2DC0jYCeOUToPMc08=
 			</data>
 		</dict>
 		<key>Headers/SCINumericDeltaCalculator.h</key>
@@ -2277,66 +2499,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			54jD4SacH7iLSKyLOWJEH9qUcFE=
+			Wb0ytnYJauUjNiqM+UI7e5EkAeM=
 			</data>
 			<key>hash2</key>
 			<data>
-			3c8NkN3AVcJiUJAk/fGpBivuC8DPH5Sa7oulxDPAYrc=
+			x+qP4CaQB+4ce6fjrz44smGDynmeo8v7SHctFoJslYQ=
 			</data>
 		</dict>
 		<key>Headers/SCIOhlcHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ev1/aRRT8A8DuwMLW2zNmgGxT2Q=
+			wl4uxse/i4DxqLQXw7I8j3nvFmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			QNvrfxdSl54KMfLtCnhPXoqWcGM/79H0R3SzAn+dNoA=
+			vf1G/qmy7mZDZbgxr+lqZ1uIWOFOIO9xPGb4cHBx2XI=
 			</data>
 		</dict>
 		<key>Headers/SCIOhlcPointSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E6zqfoPdr42C7jSc+i53zG1zGrA=
+			QhbqHcmUpGO7MZWYAi8H4nGKBBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			2WWSnbCovsIyLa5SH7sYvrzKfTIuYCO1SKvcBwhujsU=
+			lndtuYUg44bctm8z+yhCxK6slEYYUYCdp2gPqErYhok=
 			</data>
 		</dict>
 		<key>Headers/SCIOhlcSeriesDataView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GdsGKE8q2e8s7a6xGEcN9Iyb+mM=
+			PbVZ0j/EpS2CjNa3xu/b7plghHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			t2m+cYqsEWUcOpzEE781qlpUTr5Yx8q3AbBfWnIJFmk=
+			ICdbtDUKWGcgu1qjLGeiOX4/dR0KGyGzUsJgoNJH7zE=
 			</data>
 		</dict>
 		<key>Headers/SCIOhlcSeriesInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OU7t1Q3XXCp48iyMLzdKAetPDJY=
+			d50nE8mhX1te0oqRwIP7mk6XClU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4SVYsC5wo4Z+drGHmsf0wqtfAM2FBtqyUfrz9Pqz/4o=
+			QPa+AKW1YefDfmKvzr60FKNqc7YjsBa43ArykP7jwZk=
 			</data>
 		</dict>
 		<key>Headers/SCIOhlcSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j2J5x1raoeYcYgOE2RoxCw9VjGI=
+			4Kwfxbmq0kLSIpspDGmclgJMlWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			WjzNVDAdpdf//c951ukzjFJuqXIymcLuRMB46gUiVFw=
+			0nrhNZ0vIhlBsh5Ya0I3c/aPz1ExyDWEcakAAd4968k=
 			</data>
 		</dict>
 		<key>Headers/SCIOpenGLBrush.h</key>
@@ -2359,6 +2581,17 @@
 			<key>hash2</key>
 			<data>
 			NLDR4M1yhNFcsx6k1R4qU1+X6LQ8vI2naKaWWxLYrn0=
+			</data>
+		</dict>
+		<key>Headers/SCIPaletteProvider.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JVWCEdfv6YYJUeAncAvgTGsoLCI=
+			</data>
+			<key>hash2</key>
+			<data>
+			c6ScNLdLevT1ymOkFhbrkuHXktqbKnyArwZdwrbvwcI=
 			</data>
 		</dict>
 		<key>Headers/SCIPathColor.h</key>
@@ -2409,110 +2642,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y3kXHuvzt8w/Qjd/2DbCL8q7EIo=
+			HvnLyXL1VbMIjYLoekcZF6DNTCg=
 			</data>
 			<key>hash2</key>
 			<data>
-			tEfAHkdyQcHqRdElAhtcgyE0zV/FnplVDCn730AlMcU=
+			5rZ8QgSrZ5mt0DvXyNxbwtmlW+1HaYYtF8sDsZEnvNk=
 			</data>
 		</dict>
 		<key>Headers/SCIPointMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ukmK+bf6gKXoApFazDG005ZNo6g=
+			I9WnCwqFkJjRAXUxBaRr8Ci6Xmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			QbSQnDFRbG4LFIDs9ZphP+BEB8Hah3O6EPw693bcsqc=
+			FvjSMUMrOi3HsVy9hU5soeZqEKag9D6O8ww8xul3k/s=
 			</data>
 		</dict>
 		<key>Headers/SCIPointMarkerBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sshIcHMT66vhVjdOutl/SWMcj9Q=
+			iyEb+nrHJ8eI4iembuJhdNDmV7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			MALRkpAHegfN7w95pHiaOXu0I0O6roA9SXM2bXa9HSI=
+			MARPq/UD8cg0ingUPB7lsTx9KkFKtLLsY7/1+kAK+ik=
 			</data>
 		</dict>
 		<key>Headers/SCIPointMarkerClusterizer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XDpCfmWnr2ryU/u22HXTkgcFIvA=
+			qXNttTvnDu3CiqIyTWxnbvg7rZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			uxMc85i/x0A5wcke3GitcrvOAwS8+TgrSwcRZeOjCR0=
+			s2TqIoMl0b3lHBvB2nDMCdSNAkGn5WhziQX9/rHch0M=
 			</data>
 		</dict>
 		<key>Headers/SCIPointMarkerHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			prSdTzJcgmPqtSet0CdemZJyrkM=
+			bLNvLNgQ3qc54VXLn4HvPfteoGY=
 			</data>
 			<key>hash2</key>
 			<data>
-			mh+qILMx/CN/M45bGHzFygoQquFyabVai6hXIv+CPOg=
+			ovvrIrq36pEWcBepgGzs2c0jgaEhMxq5j1Ta5OzbTyQ=
 			</data>
 		</dict>
 		<key>Headers/SCIPointSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GJmPmtEVUCkfOJOjDjmW1vUlyC4=
+			pYzw7W+ChR41jglgQLQ1FQF10wM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kf+IFyfLJ+Dxlmx/PV9pzH1mxLrdV5qOrSmNPjioWUM=
+			z7hZxKvrI405xtMGPY6UK59VTwUF/yE2AAgdD8QjW0A=
 			</data>
 		</dict>
 		<key>Headers/SCIRange.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TxkpkNamnUnnUbpAVeAhAnxGZ7M=
+			KhGnhdxeUNoAlaskQZEqJt8q8wk=
 			</data>
 			<key>hash2</key>
 			<data>
-			n+N61sHha5vn6IYeJU/BoBRsPyQXgNmeK0RP7sO/Ajg=
+			M6Ecp2oQrJTDn1/8F83L1Pd8JzEIM1Ap342LKamzZnU=
 			</data>
 		</dict>
 		<key>Headers/SCIRangeChangedCallbackHelper.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qthYnN2gl5ZA8AnHeB0FwD5b6sM=
+			M2Kv/DBKmrJ0La/f+g55TbKDjYw=
 			</data>
 			<key>hash2</key>
 			<data>
-			E+kwuG4pP+gikT7bn5LUYKaLDVMoxUbi7e8X8VH14ro=
+			rY/5rsbSOCDwPZ/jSJ2FNg6k86eJBAijFI6AQfCoGLo=
 			</data>
 		</dict>
 		<key>Headers/SCIRangeFactory.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jX+KtWg4p0LmZGq8isNRu27Rp2A=
+			M3m2SncxE24b9liel4mdx3XSnOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			eLShRswc0D+hZb79tviwU+MeZpcYRXTEYbygWvY9pN4=
+			nqaPbOes0vC6VILIyHZVz8Pw5taI64jRsNZMQ0TIIbA=
 			</data>
 		</dict>
 		<key>Headers/SCIRelativeZoomModifierBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ootmLjRiOg71Qn9AXY9n5nwzZn8=
+			oWemqQwMfL82xlPIblnz/90VkX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			m0tKzn6PJUB4un2aF3i0XvCo5m1ejH+3uVE3r1unCTI=
+			bJyLLXoaCzfCZlnDoOq+j/adAUru6T6UWGrAmrSlyPo=
 			</data>
 		</dict>
 		<key>Headers/SCIRenderContext2D.h</key>
@@ -2574,198 +2807,209 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6NjWp2TnjXQym63FooNZ6ZWxdrA=
+			vjno0s8ZBa672sR7GDqYLAKeePQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			BUPEnh0fyFRMz8SEDGnqQzmzCZkibtijUEeELoVABl0=
+			dIxb1CpREP5WxheK0yxQ3SWaf366QcnCoStl0F4e9EU=
 			</data>
 		</dict>
 		<key>Headers/SCIRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wFtgobKdood8a1aH3OJxfUdJPpg=
+			UFGTG8F/8eXVfBsdSwBxBX15vW4=
 			</data>
 			<key>hash2</key>
 			<data>
-			E3L+UGdAGyfLSO5BVV6jocSL7l4kBgsOYq5ofG/0Juk=
+			jOv+FUQZ2CNtluV3ijNPGMiEBSLqoHnzjstbvcAIs3g=
 			</data>
 		</dict>
 		<key>Headers/SCIRenderableSeriesBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5Abe+QGjr6DYYY8jgN4C8E6epqc=
+			TMf8n5rPXWoQzZVIaXOEUSLmfNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			LXFU30c/nGGVwOcYXIevSuMJ/4nD/ShfTfbv0Vf13Ck=
+			42XjbKqAMt2RtG2r4Y73ucUwV60ECrMHofshBNKA9WE=
 			</data>
 		</dict>
 		<key>Headers/SCIResamplingMode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y1zST32flTOKoRO7EHblIAzUuAw=
+			yhPjqxZPgppqqWBx34QuPFNRg/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			15t9ERpqlSd45LhCN/FSiZGx2+ywLu6A841MY83/nQI=
+			Qmi9aLjFqr7hB0cPKSRa1BG6v0oonufV+jnkv+46a9U=
 			</data>
 		</dict>
 		<key>Headers/SCIRolloverModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0QuKPlV9cXXb2OdhVRPfqP7gXNQ=
+			gVMG6sTqWtKE6VbCKr8TBJQpckk=
 			</data>
 			<key>hash2</key>
 			<data>
-			nSTDS6ST1UK0mFqyDtuaTzurbUucpqMATc105EcwkG4=
+			iIe3ZufXRzloOwTkxx1JjK9NEq5qVHixpWEUYFd326s=
 			</data>
 		</dict>
 		<key>Headers/SCIRolloverModifierStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2W3ulzI2lD1bM588dEWB0gHxCv0=
+			FuafD7Bjb911rroyUOZ/npY5X0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rs1J7kByrApay92rtIFoL11Z8Y3OnB0kf3IHorOq0C0=
+			HeZJRPahXJveBVDYDMLqMEU2u81ZzrPBfN4Nc0siz1A=
 			</data>
 		</dict>
 		<key>Headers/SCIScatterSeriesStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mYFixvf0d1Jgy617srFPujaExxE=
+			VY39KeecwctLSF+ngxAKvj04tUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			l8oeK9Jrb6IWXsmGPi7RhBl+S8fLbQmuq3u1f4GYOxE=
+			USei25OthFHBVdYvvEN9p9wjYrNCZ6kpKR1FSYLbbEM=
 			</data>
 		</dict>
 		<key>Headers/SCISeriesInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qgMDPKuaRtZEBYON7GOiPPPgCng=
+			KSYz+ypPhR4x9U77esRYuSPbwKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hLJmDUWcl51cauDmfDoXvPF9GCRvRpB9cctOhcQ/Ft4=
+			J27UbvhCuIYY0kRAVofC9ypl5yCp0jqqhO4ssrrVyHA=
 			</data>
 		</dict>
 		<key>Headers/SCISpritePointMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ni9hiEJkARgdD1kI23Gdir0k4Yc=
+			0EdE+y6Tik41Ecw6wGUTYT34r/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			9yf3ldLTtTTfrrZHMtWacMlc61wbXnQ75Y0IDfGx6x0=
+			pWhgNR0RA9LsxZAIhs4xuQ1cVCvHw+7GmLrfBiOCa2E=
 			</data>
 		</dict>
 		<key>Headers/SCISquarePointMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bfrEwGR+w3T7NynXu3QTVOzEOAo=
+			0RmBxvEnT2hAglsyopBdLgBzerc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SnCBZeX0uZjPP5O/xfdX4DCEc8p7nvT0+zu7AQCOboE=
+			kv+YfCVRCYQSEycs/5ikwaRNZXrQTvMaPwI0fRDPHd8=
 			</data>
 		</dict>
 		<key>Headers/SCIStackedGroupSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fRBMHfPACFqxY8qdc9+2hR/e644=
+			Ds+VVAlmebxLtpPdq1q/ZjZ83XA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kv2oIQS/PBlEI4qZ1ngcQrsRQ8ER5kvyWBQN8iW16vQ=
+			q3/Ucu/oeqpoSx8/XAsPr19PBDDYEyReJT0R9jGBy/0=
 			</data>
 		</dict>
 		<key>Headers/SCIStackedMountainHitTestProvider.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+QlWpMHAelSX3taNz6E/+IM/De0=
+			tQRuvW4uH38UzqhTDpRq9m0KD0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			mgnVhIJFsjDc3lynRdmaD1bpYtvCP19DxAbBizx7dMM=
+			yEVlOm1jJTBjWbrqWb06+qC+Eeqy1hJr5q82XorRvG0=
 			</data>
 		</dict>
 		<key>Headers/SCIStackedMountainRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XWE9Rpatd7LtIYlsDFNy/EMvC3w=
+			fccp2fL5rdq3BtoXNHB1+XeUsWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			OF8o+KmzTYJv34MCk/3kdDnR65AuxwwIFfh6JZk41Zo=
+			SLLHH/SNADSkuV8tKo2HnzL8tSwwGWVBFnJla/+W80c=
 			</data>
 		</dict>
 		<key>Headers/SCIStackedRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u0zdmZxlcxf1h9nPLSLK2BJngPc=
+			h235Ux3eLLgn7axSfE4WzSsT2bQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			eaksQATvPFrSYjAtoYmVQyJhcqQ90o2peFg4xsxDniU=
+			Rw1vH3csdIqBHkl6dEuIc2cBaHHowK1hbWwPlrNLOtw=
+			</data>
+		</dict>
+		<key>Headers/SCIStyle.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FsnaF6tUo29VtdUDx30iws8/gfU=
+			</data>
+			<key>hash2</key>
+			<data>
+			8Z3CWOyotgxOk2DYCaOs9AVqXHT8LiDcP9HtIqo7sDs=
 			</data>
 		</dict>
 		<key>Headers/SCITextAnnotation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l46tRJveC6SX2wquaEI2fBqad5Q=
+			oFx3AJfyUrbg6Y5PQd14/ZM+E00=
 			</data>
 			<key>hash2</key>
 			<data>
-			t/J407ltf5E9w54zajYicSLFuU4m0NYp9cB1B0YKo/c=
+			QamkZPaSUOleUHs1BkLtpgpHQc5u577G0PpfjbvmjZs=
 			</data>
 		</dict>
 		<key>Headers/SCITextAnnotationStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V5/f3QU5cq/KvAObyQXpVjqWxPA=
+			zpXUW3oJewiGElLpdQngJAi6BQY=
 			</data>
 			<key>hash2</key>
 			<data>
-			4sKAVrJx5lwbqp0fT9CBY9R9eqHKvEV5nTrLU4RFPTc=
+			dfdLeqWsT/p4XjUzALksg3cV8BO/hWMDu/EFnMVPV2k=
 			</data>
 		</dict>
 		<key>Headers/SCITextFormattingStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5soMWV+YuuwDqzW10/JRVhN2mHY=
+			QiLX2RGg4ccAOkkzQvf/tp9vy5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			RgRihBubogdnZNqM8OCSWhqwjmVAjj5e8JAKuIv3IPA=
+			2ygWxAEKQC22rsfOzNZ1nSHXaqsK4Q65r0QctC02H/Q=
 			</data>
 		</dict>
 		<key>Headers/SCITextureOpenGL.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Rz3kS3433Smm665Qe1aA9rsY4tk=
+			B1Ub4PHzMQrE34MIVeoJhA3AsOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			fvB3JJoTSbAjCGFl+cYDwhD7d1k9YD5wfUCEegqRUp0=
+			9w1aTb3sOhNMjCzabTTpc1AnhqYBuy0bX8b4T1LW8Ks=
 			</data>
 		</dict>
 		<key>Headers/SCITexturedBrush.h</key>
@@ -2838,11 +3082,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jOg86jYF0CwaMkh5KEw3mw928Jw=
+			3jSdR0JIEwhf45aW7MwjH2iiMyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q/+PLfBhsm6hbBC+79cdc9lwiSusemEUR8W/96YDl6k=
+			0ay10dCLHF7UddPDQWZqI/VIlWRgbfabAX9zfvi7bNQ=
 			</data>
 		</dict>
 		<key>Headers/SCITimeSpanDelta.h</key>
@@ -2882,66 +3126,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s44p8S1NsVXTaFtD2aGnIJ62i/E=
+			VV6MUM8wdEchFF+jkxaMmS1SYmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			CNJYJN0k8iKfkqEydG+eQV5h3x8azjiaCpXV4dXLpJs=
+			+f1uAfioo+2HQi6+dp0DLec8ek68O2zDwyqKf33K3O8=
 			</data>
 		</dict>
 		<key>Headers/SCITooltipModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			evkid11eBW/H4V6aCmqn0FX7OXo=
+			BZKIXp89785wql1AEzxYo1hHGeY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qUSOMVL1b+I98rZioXJ7o9nrC8FTv/YbvDRqj8GYesg=
+			HfT07h5sUmo3EjkKb9TB4kIplbCMnZxLowRQtOM/H+g=
 			</data>
 		</dict>
 		<key>Headers/SCITooltipModifierStyle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cY3W5fFDZsZ3D0BxviLteT4QngY=
+			FfEzDcmy0HLbv6nqhtI/Ag0g4S4=
 			</data>
 			<key>hash2</key>
 			<data>
-			qOQJSfJqGV+PYIHruOmrslYOx0RSi3s8gIP2DTkIcHk=
+			sNoW+nM4A/Sa1f6KN4KfaLtdXnITFNAt9B2YKT/z+BE=
 			</data>
 		</dict>
 		<key>Headers/SCITooltipModifierStyleBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u5DFw+ksbvP49uC14eEbrc4ATxo=
+			s8DRspyBh2Z9A98NNaRCFRFiiy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			DhsYn8fwOw6NmkPjQi0EpTFv+Cv8gBLi2oncGHAIM2A=
+			TY4ndM11eqx0ERdMf7Ba3XvJIRhUPrLrJ8N1nU4HjR4=
 			</data>
 		</dict>
 		<key>Headers/SCITooltipView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rjmoshSJUY2oXz07Zd+JN2ZEe0I=
+			cVAGsIi8txKicdtwzc0e0oan20c=
 			</data>
 			<key>hash2</key>
 			<data>
-			PCsP7mmAIyCasoeOLwreRX4fzZCANhbeMPqpINvspEc=
+			p2akR5ARI3Fx5N/Q0VC18NhmLiS5N4j47jcI6ljXxZM=
 			</data>
 		</dict>
 		<key>Headers/SCITrianglePointMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SIbvcS2xR5Mpr84YG4p+eFVV4WM=
+			5Ror12wNGqiQHwybEP8CZvJddGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			wy6vacsLjAVf96sdHTDVHla/+9D7P/YvDIiunkRhNeM=
+			kbvlOkfD0QtSCAQe9DwwUK5L7dFlt8nogECkGAyJAi4=
 			</data>
 		</dict>
 		<key>Headers/SCIUserDefinedDistributionCalculator.h</key>
@@ -2959,121 +3203,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1y6q8m7FvwzcaY7Ejn6vnzMjvMo=
+			2W7l3UuoNQ7tksvOBnfwIY47vak=
 			</data>
 			<key>hash2</key>
 			<data>
-			HDrulVPzvDxekJai881QchJ1Z/aZhTiqpIuqXkFk+p4=
+			lcFet24t7r4ACKcohEqvg2oYoDFHxJ67Pm4rVABgR2I=
 			</data>
 		</dict>
 		<key>Headers/SCIXAxisDragModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			14R58mir6gKsGzMKaJ00iU56QyA=
+			RRxHYexkQl+3fjn2sgy54V9KqLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			84ASEiC1+OuboOsAQ1io/uqihzsBNhwA2EbpQPEIxAY=
+			GoOIbnW/Jl+I0WjA3Suc4MYwBymXYvJx3RZIrf2l0fQ=
 			</data>
 		</dict>
 		<key>Headers/SCIXyDataSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9jE/9xvFiET8lMYhPMDBMtLDyq4=
+			2MYnKYTRfSorJ7A03lIJ3hOTk+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			mwq56LKqlvgSqDuZ5ecdBWw7eeo6yX8bGAaNKM92qhE=
+			nduf1WKLEglK8E9Po9w5IgomVpDZmg6gZMmbquBez38=
 			</data>
 		</dict>
 		<key>Headers/SCIXyScatterRenderableSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zHvY39i/kU2S/ye82+4H68fJ7kE=
+			2oJtHuztbsv4X9iVRV997wbMSsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			p0J/TyIET3jS6aJGaLJ0jm7jdnQ8P77tkGgCrknxYGw=
+			M9hvbgkzirkky7eCkywpBWyf6P9l51iXSCgntZ9/R9I=
 			</data>
 		</dict>
 		<key>Headers/SCIXySeriesDataView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EznD0rlZE3dD/ujVIvLIVKdhgYA=
+			nnIPyrwbBiG4s8XZ51H+p9bFO7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			JWjAly2WjWLLJFTUs7MJkeCX7nlUMx4X73H9UyI2ISY=
+			MY17xuDfisycQEPQ5uxgX44fiiX1xpiKcyAdX5JiZbs=
 			</data>
 		</dict>
 		<key>Headers/SCIXySeriesInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J4sPO07P0glKtr+gJ+jkL9QyMlk=
+			XRTsfqfmK1mwCEE0YfiFKM9J5HI=
 			</data>
 			<key>hash2</key>
 			<data>
-			VJr9Rx/Kn4pG+q/3FW2kD78Pj9ysB/Lnl/BJAoMFWpY=
+			CJeWOaDtTprPfVRZ38V3lxNVmVk/2Tjz9jzYOsInH8w=
 			</data>
 		</dict>
 		<key>Headers/SCIXyyDataSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qsLu1Ni2SpnRYsaAn6R7EwO2fDU=
+			HrtUunVZmrlTyyogzpG5fuuW4JI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bVzR3h4UFL69D39IbeuXAwYlJPtBN4X7Lim5OSzvA28=
+			sC0VGODjeOn62bJsP85jMHTM8414bhE1D3RzIxuFBgs=
 			</data>
 		</dict>
 		<key>Headers/SCIXyyPointSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6OlvK+aerj/2tw4N91ygpND26/U=
+			Y98j63IQpmj8bjqnJwiUx/4R4lA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ft/1V2k63gFW5/raQWxVIx7T6yl7xxHrA4mxEUvPEpc=
+			3G6HrxrtQeJT6E5JIxK9AE7IIPxe6qga7BqNyTO5cZo=
 			</data>
 		</dict>
 		<key>Headers/SCIXyySeriesDataView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wke4Y/TXQtyrinQxg6z29X0jIbk=
+			nTrQHL9X/tYkMe19pYXiZQAZhDE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gRz1jmktFFL+5u5I5vFfm6YuvNsUA11nV98gmYQ2e9c=
+			r82xUaVI8UvIo2hTLPDtpR8be1YWjcEu4GVs7uSby5U=
 			</data>
 		</dict>
 		<key>Headers/SCIXyySeriesInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NA7xflMxaD+rJVhOBb0Pqge3nk4=
+			V8ptQFwmO6HtSoCov6vENVBfNRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			NXMiCCYmlBzVU2DggfOoobeVTkuEdH/cxMNQ6azbsHo=
+			/vftF1hcdhIXrhnG2xdckY0/7ls6Gledt69fhUmYHfE=
 			</data>
 		</dict>
 		<key>Headers/SCIXyzDataSeries.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g+WCcIpDKompMiQCCm3IKgoEBic=
+			keqTo3HSvfovHBFzxQbdUCMMjf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+JTzqG2uLXtBStvYX7MOhXJ14e3W0ZJBMeRwA1X6p9s=
+			5r8U+FC1e8qPHAsbHQlDa71LSz+/xdmw4kk1jrb2D54=
 			</data>
 		</dict>
 		<key>Headers/SCIXyzPointSeries.h</key>
@@ -3091,77 +3335,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cyUCQfOKM+rrZ6yxP6AIVnl23SY=
+			pGCcml8MewF+U4pkGXzC/cLheRk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sxJkU5rjG8q47u4zWazydIWankv3ReKOaBjrkDd0uTI=
+			uwWPyoL+P125aYSXpx0Pd25m2DN6FU4eD68Um60zBf4=
 			</data>
 		</dict>
 		<key>Headers/SCIXyzSeriesInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BMo5QdN7JLnESjpjcfQ7C3IrJA4=
+			qiGcNnX3UacxJKUaW5mXOAjQgCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			UDOVByjQQnRMiaBDmoO53lRl/DLe2xegAuDd4qKfz/I=
+			0Uqg0S3wdtz5BMk6Gq5WnfqDse874iVeE9z/tut/+g8=
 			</data>
 		</dict>
 		<key>Headers/SCIYAxisDragModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cU4fcsgDLHPDRw9AfGhiJMHc8hM=
+			dCFXN+g1fRfRxL+0Ki3wSfGU+Js=
 			</data>
 			<key>hash2</key>
 			<data>
-			5imo1J6agHLhNHohYHp24NuRuit8VnzyddAA9NJh0dA=
+			Nexe1M73Z0CHaurgiGknLd+HFKPimaJeQcCL2K/5fPw=
 			</data>
 		</dict>
 		<key>Headers/SCIZoomExtentsModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fwbz6pj7XQwpvziY+TZUxCIxUps=
+			Ws2v7iG3mCMDhplrqKsuCTo3SuI=
 			</data>
 			<key>hash2</key>
 			<data>
-			lNy07vuxsJA1GCEsjCZmMXX3VhHtsSiCOBlMgeO0hKo=
+			r9XqRhT9Wvdj7CavaAEtcQgCXY4RYlXEojGNKsc6t2I=
 			</data>
 		</dict>
 		<key>Headers/SCIZoomPanModifier.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8OQfbb565EMqkDU6GSa+bcJ2VeA=
+			kJEfrQ5UHtjsxaXdTUzXDib9A9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			fhSFU7yMb7LKaWgwwoHZCaBxr4bMwMQntR2EWAVTmbU=
+			0ecjeMk3YniawwxhMs/3+sueTHmMCOKDlYAK9sKtf2I=
 			</data>
 		</dict>
 		<key>Headers/SCIZoomPanModifierBase.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6ibO5DNxEOkfY7wc/m5xl7blvkQ=
+			h/WHf/C2GaRaEkBM2fTV6VjtHm0=
 			</data>
 			<key>hash2</key>
 			<data>
-			oxAHVsiljvObCedirlH836+My3ddOY7vC3lyHKTl3wE=
+			C4CaapcsAnjk+uSSB5R17fRAxv0r9r3pdNYzs6e7tYQ=
 			</data>
 		</dict>
 		<key>Headers/SciChart.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iAeqKJIYhw1m4K/5JxiQ5xmWHEw=
+			J4llNb5T4Nz9YZoIASnNyHmRAts=
 			</data>
 			<key>hash2</key>
 			<data>
-			6E7UGCw+dv/xM8or22pubJ7Kh/7yoNJcrXI2y0dlqgY=
+			V/cDFoIHgADTAYv5VQF0HC0e5YwEa63ueP1P/4mN9Dw=
 			</data>
 		</dict>
 		<key>Headers/UIColor+SCIConvertToHexColorCode.h</key>
@@ -3190,99 +3434,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t7cbSolHyd6vTBZa5z2VnDr3dag=
+			j3FFiXu3W20ZrRw7Fkixu5AyasM=
 			</data>
 			<key>hash2</key>
 			<data>
-			3gHylP7r78thOeqbQh9wIEE8+qmSqsGhhPLZAdXxAMo=
+			1kBLLWDVciLp2mpXDp0xgV4MMR+B4kqkIuQ5OIGr4Pw=
 			</data>
 		</dict>
 		<key>SCIChartSurfaceView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P8AI7SsaYuvQcWHsXVBiJ/wdXR0=
+			djArcpPXTxLiSHygIZ9WbZX/pk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ulyIhamG1sdKjbM0dD0LJjYznDfNVPayCEzG3QWA7Kw=
+			IXN8vS5DRF3NR+VQjlMEFdYP3+15j8bzQ5SXLJ65zJU=
+			</data>
+		</dict>
+		<key>SCILegendCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HqymEm7XTDAGapuZSS6c3br1yA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			fnf7W87bao7JvVG9ZcBfrjxhqY5RYMEQ97hF+r6MmaY=
 			</data>
 		</dict>
 		<key>SCIOhlcSeriesDataView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FziEBzMGil2GXrpUBOmP2M+PDNw=
+			Nc1tq5rK53okTzrreCJnIiQVz7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			cULcXGSfJWeZJIM83nCzvUy9Py9G+pL2DqkrJbJ02wk=
+			U4OStkQygdQg90RhLlcX5EI+oD/zlk6Zwn+Etn9n2T4=
 			</data>
 		</dict>
 		<key>SCITooltipView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2Y0h/mWsmEiFajyC1Id6QMe0RIo=
+			SRxew2PhcB/mDWfJPpPdflDjUGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			YuVzQJ/fQteRRS/Le7ThJDy+yT5z7erELVIkGwoB8tI=
+			kaGwYE04jf/CCVlc4PdkcqU+Myi3WqHB9Jvrq4b09WU=
 			</data>
 		</dict>
 		<key>SCIXySeriesDataView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lGDDgOl22eZSWz9PMJODhaGQTGQ=
+			RvhkrArb64UndeNf8ull+hsBHSE=
 			</data>
 			<key>hash2</key>
 			<data>
-			HZ+PI/Wxuptj8NYtUQq38y8LtvE5PFtwFXA9GCy8GxY=
+			R2tlqBLj7M1qiQ+3jd9lB9XTrTQ2FlttZmF6/fKdrlw=
 			</data>
 		</dict>
 		<key>SCIXyySeriesDataView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p7qtkLM5Ir/tj86c3PNvgXvR57c=
+			DkhX3L9P+4e69sdWwkUFgf980kI=
 			</data>
 			<key>hash2</key>
 			<data>
-			HJlJfNL1+8iRjl81qD09k0tMutVaGLTr14Zn+v2jmkU=
+			NnYpiCxxDCP/HPfWpY9F3oFEMuQVFUtsMcKGSb7IpoA=
 			</data>
 		</dict>
 		<key>SCIXyzSeriesDataView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			346eWtiNfRP30Orlegue0vTXVWM=
+			qf+r3ETdT8O2yLZTfx0j48osg98=
 			</data>
 			<key>hash2</key>
 			<data>
-			v/fIagj9A0LRiSekC//ZFJfBcgFiT39ScQb396/6RSQ=
+			lDmB6LKIR+HFXLkOVrG/fRt1/J31E2AO5AnMkoGtXCc=
 			</data>
 		</dict>
 		<key>SwiftUtil/SCIGenericWrapper.swift</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CTpTq/APav/v6gWo3A2m3i4w1QU=
+			WLP0hhx7BGqmR7oZxvUJS7zCYQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			a1Dld4plErV7DYM43NzoswkX+iWIfUBC1kQoXZoWDQ8=
+			NFLl1ebunfytai6x49FHny6mmuCfypRdDSdfBhovDWQ=
 			</data>
 		</dict>
 		<key>WatermarkView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9p8mBfxopv5jDHBL85RIhzOpP0I=
+			yDkv7p5MkyRvuTlW1KDZ4feFI2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			P+E67Pwjpqur8EGsQV1vzHEGVRylezQeXJ9D6U+rEww=
+			MmT2FJ3y2wDLC+OmtccQ4jkp03HiVPqa25JbA6ntyJk=
 			</data>
 		</dict>
 		<key>watermark.png</key>

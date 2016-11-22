@@ -6,61 +6,119 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Themes
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCITooltipModifierStyleBase.h"
 #import "SCITooltipModifierStyle.h"
 
 @protocol SCIPen2D;
 
+/**
+ * @brief SCICursorModifierStyle class
+ * @discussion Provides properties for styling the text and appearence of the cursor modifier
+ * @see SCICursorModifier
+ * @see SCITooltipModifierStyleBase
+ * @see SCIStyle
+ */
 @interface SCICursorModifierStyle : NSObject <SCITooltipModifierStyleBase>
 
-@property (nonatomic, copy) SCITextFormattingStyle * axisHorizontalTextStyle;
-@property (nonatomic, copy) SCITextFormattingStyle * axisVerticalTextStyle;
-
-@property (nonatomic, copy) SCITooltipViewSetupBlock axisHorizontalTooltipSetup;
-@property (nonatomic, copy) SCITooltipViewSetupBlock axisVerticalTooltipSetup;
-
-@property (nonatomic) float alignmentMargin;
-
-@property (nonatomic) SCITooltipColorMode colorMode;
-
+/**
+ * Changes line color and width for cursor
+ * @code
+ * style.cursorPen = SCIPenSolid(colorCode: 0xFF00A0FF, width: 1)
+ * @encode
+ * @see SCIPen2D
+ */
 @property (nonatomic, strong) id<SCIPen2D> cursorPen;
 
+/**
+ * Changes style of text for horizontal axes tooltip
+ * @see SCITextFormattingStyle
+ */
+@property (nonatomic, copy) SCITextFormattingStyle * axisHorizontalTextStyle;
+/**
+ * Changes style of text for vertical axes tooltip
+ * @see SCITextFormattingStyle
+ */
+@property (nonatomic, copy) SCITextFormattingStyle * axisVerticalTextStyle;
+
+/**
+ * @abstract This block is used for additional customization of horizontal axis toltip view
+ * @discussion Type: typedef void (^SCITooltipViewSetupBlock) (SCITooltipView * view);
+ * @see SCITooltipViewSetupBlock
+ */
+@property (nonatomic, copy) SCITooltipViewSetupBlock axisHorizontalTooltipSetup;
+/**
+ * @abstract This block is used for additional customization of vertical axis toltip view
+ * @discussion Type: typedef void (^SCITooltipViewSetupBlock) (SCITooltipView * view);
+ * @see SCITooltipViewSetupBlock
+ */
+@property (nonatomic, copy) SCITooltipViewSetupBlock axisVerticalTooltipSetup;
+
+/**
+ * Changes target offset mode of hit test. Default is SCITooltipTargetOffset_Up.
+ * By default hit test point is located above finger, you can change this bahaviour by changing this property
+ * @see SCITooltipTargetOffsetMode
+ */
 @property (nonatomic) SCITooltipTargetOffsetMode targetOffsetMode;
+/**
+ * Changes target offset distance in pixels. By default it is 50.0
+ * If you need to change target offset direction you can change <b>targetOffsetMode</b> property
+ */
 @property (nonatomic) float targetOffsetValue;
+/**
+ * defines starting offset of hit test point. By default it is (0;0)
+ * If you need some custom offset, you can change this property and set targetOffsetMode to SCITooltipTargetOffset_None or targetOffsetValue to 0
+ */
 @property (nonatomic) CGPoint targetCustomOffset;
 
+/**
+ * Changes background colour of horizontal axis toolTipView. Default is orange.
+ */
 @property (nonatomic, strong) UIColor * axisHorizontalTooltipColor;
+/**
+ * Changes border colour of horizontal axis toolTipView. Default is orrange.
+ */
 @property (nonatomic, strong) UIColor * axisHorizontalTooltipBorderColor;
+/**
+ * Changes border width of horizontal axis toolTipView. Default is 0.0f.
+ */
 @property (nonatomic) float axisHorizontalTooltipBorderWidth;
+/**
+ * Changes corner radius of horizontal axis toolTipView. Default is 5.0f.
+ */
 @property (nonatomic) float axisHorizontalTooltipCornerRadius;
 
+/**
+ * Changes background colour of vertical axis toolTipView. Default is orange.
+ */
 @property (nonatomic, strong) UIColor * axisVerticalTooltipColor;
+/**
+ * Changes border colour of vertical axis toolTipView. Default is orange.
+ */
 @property (nonatomic, strong) UIColor * axisVerticalTooltipBorderColor;
+/**
+ * Changes corner radius of vertical axis toolTipView. Default is 0.0f.
+ */
 @property (nonatomic) float axisVerticalTooltipBorderWidth;
+/**
+ * Changes border width of vertical axis toolTipView. Default is 5.0f.
+ */
 @property (nonatomic) float axisVerticalTooltipCornerRadius;
 
-@property (nonatomic) float tooltipOpacity;
+/**
+ * Changes opacity of vertical axis toolTipView. Default is 0.9f.
+ */
 @property (nonatomic) float axisHorizontalTooltipOpacity;
+/**
+ * Changes opacity of vertical axis toolTipView. Default is 0.9f.
+ */
 @property (nonatomic) float axisVerticalTooltipOpacity;
 
-@property (nonatomic, copy) SCITextFormattingStyle * headLineStyle;
-@property (nonatomic, copy) SCITextFormattingStyle * dataStyle;
-@property (nonatomic, copy) SCITooltipViewSetupBlock tooltipViewSetup;
-@property (nonatomic) CGSize tooltipSize;
-@property (nonatomic) float contentPadding;
-@property (nonatomic, copy) SCIActionBlock styleChanged;
-@property (nonatomic) SCITooltipViewAlignmentMode tooltipAlignment;
-
-@property (nonatomic, strong) UIColor * tooltipColor;
-@property (nonatomic, strong) UIColor * tooltipBorderColor;
-@property (nonatomic) float tooltipBorderWidth;
-@property (nonatomic) float tooltipCornerRadius;
-
-@property (nonatomic) CGSize tooltipShadowOffset;
-@property (nonatomic) float tooltipShadowRadius;
-@property (nonatomic) float tooltipShadowOpacity;
-
-@property (nonatomic) SCIHitTestMode hitTestMode;
-
 @end
+
+
+/** @}*/

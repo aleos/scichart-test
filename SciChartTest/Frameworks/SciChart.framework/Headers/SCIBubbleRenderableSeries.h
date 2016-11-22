@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup RenderableSeries
+ *  @{
+ */
+
 #import <SciChart/SciChart.h>
 
 @class SCIBubbleSeriesStyle;
@@ -33,3 +37,5 @@
 @property (nonatomic) double zScale;
 
 @end
+
+/** @}*/

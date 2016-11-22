@@ -6,8 +6,12 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
-#import "SCIChartModifierBase.h"
+#import "SCIGestureModifier.h"
 #import "SCIHitTestProvider.h"
 
 @class SCIRolloverModifierStyle;
@@ -16,7 +20,7 @@
  @brief The SCIRolloverModifier class.
  @discussion Provides a touch gesture hit-test to a chart.
  */
-@interface SCIRolloverModifier : SCIChartModifierBase
+@interface SCIRolloverModifier : SCIGestureModifier
 
 /*!
  @brief The SCIRolloverModifier class' property.
@@ -30,13 +34,13 @@
  */
 @property (nonatomic) double hitTestRadius;
 
-/*!
- @brief The SCIRolloverModifier class' property.
- @discussion If true use Interpolation, else draws without it.
- */
+
 -(HitTestResult) hitTestWithProvider:(__unsafe_unretained id<SCIHitTestProvider>)provider
                             Location:(CGPoint)location Radius:(double)radius
                               onData:(id<SCIRenderPassData>)data
                          hitTestMode:(SCIHitTestMode) hitTestMode;
 
 @end
+
+/** @}*/
+

@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup RenderableSeries
+ *  @{
+ */
+
 #import "SCIRenderableSeries.h"
 @protocol SCIRenderPassData;
 
@@ -23,3 +27,5 @@ typedef void(^SCIStackedSeriesRenderDataRequest)(id<SCIRenderableSeries> series,
 -(id<SCIPointSeries>) getStackedPointSeriesFromPoints1:(id<SCIPointSeries>)points1 Points2:(id<SCIPointSeries>)points2;
 
 @end
+
+/** @}*/

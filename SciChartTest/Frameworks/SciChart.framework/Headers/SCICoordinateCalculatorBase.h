@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup CoordinateCalculators
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCICoordinateCalculator.h"
 
@@ -38,3 +42,5 @@ typedef NS_OPTIONS(NSInteger, CoordinateCalculatorOptions) {
 -(void)setCoordinatesOffset:(double)value;
 
 @end
+
+/** @}*/

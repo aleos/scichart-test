@@ -262,3 +262,18 @@ FOUNDATION_EXPORT const unsigned char SciChartVersionString[];
 
 #import <SciChart/SCIAxisMarkerAnnotation.h>
 #import <SciChart/SCIAxisMarkerAnnotationStyle.h>
+
+#import <SciChart/SCILegendModifier.h>
+#import <SciChart/SCIStyle.h>
+#import <SciChart/SCIPaletteProvider.h>
+#import <SCIChart/SCILegendCollectionModifier.h>
+#import <SciChart/SCILegendCellStyle.h>
+#import <SciChart/SCILegendItem.h>
+#import <SciChart/SCILegendCell.h>
+
+#import <SciChart/SCIFastImpulseRenderableSeries.h>
+#import <SciChart/SCIImpulseSeriesStyle.h>
+#import <SciChart/SCIErrorBarsSeriesStyle.h>
+#import <SciChart/SCIDataSeries+XColumnEvents.h>
+#import <SciChart/SCIFastFixedErrorBarsRenderableSeries.h>
+#import <SciChart/SCICategoryArrayController.h>

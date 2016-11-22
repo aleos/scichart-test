@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup CoordinateCalculators
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 
 @protocol SCICoordinateCalculator;
@@ -16,3 +20,5 @@
 +(id<SCICoordinateCalculator>) getInstance:(SCIAxisParams*)arg;
 
 @end
+
+/** @}*/

@@ -6,8 +6,12 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
-#import "SCIChartModifierBase.h"
+#import "SCIGestureModifier.h"
 #import "SCIHitTestProvider.h"
 
 @class SCITooltipModifierStyle;
@@ -16,7 +20,7 @@
  @brief The SCITooltipModifier class.
  @discussion Provides a touch tooltip to a chart, outputting a single SeriesIfo.
  */
-@interface SCITooltipModifier : SCIChartModifierBase
+@interface SCITooltipModifier : SCIGestureModifier
 
 /*!
  @brief The SCITooltipModifier class' property.
@@ -36,3 +40,5 @@
                          hitTestMode:(SCIHitTestMode) hitTestMode;
 
 @end
+
+/** @}*/

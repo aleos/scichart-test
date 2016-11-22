@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIAxisBase.h"
 
@@ -14,3 +18,5 @@
 @property (nonatomic) NSNumberFormatter *numberFormatter;
 
 @end
+
+/** @}*/

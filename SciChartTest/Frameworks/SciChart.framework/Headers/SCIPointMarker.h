@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup PointMarkers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 
 @protocol SCIRenderContext2D;
@@ -22,3 +26,5 @@
 -(void) setPointMarkerColor:(UIColor*)color;
 
 @end
+
+/** @}*/

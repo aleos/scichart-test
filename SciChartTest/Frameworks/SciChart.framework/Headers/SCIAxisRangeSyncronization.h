@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 
 @protocol SCIAxis2D;
@@ -16,3 +20,5 @@
 -(void) detachAxis:(id<SCIAxis2D>)axis;
 
 @end
+
+/** @}*/

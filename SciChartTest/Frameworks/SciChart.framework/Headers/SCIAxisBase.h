@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIAxisCore.h"
 #import "SCIAxis2D.h"
@@ -64,3 +68,5 @@
 -(void) drawMajorGridLinesWithContext:(id<SCIRenderContext2D>)renderContext;
 
 @end
+
+/** @}*/

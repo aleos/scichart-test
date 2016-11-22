@@ -6,14 +6,20 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
-#import "SCIChartModifierBase.h"
+#import "SCIGestureModifier.h"
 #import "SCIEnumerationConstants.h"
 
-@interface SCIZoomExtentsModifier : SCIChartModifierBase
+@interface SCIZoomExtentsModifier : SCIGestureModifier
 
 @property (nonatomic) BOOL isAnimated;
 
 @property (nonatomic) SCIXYDirection xyDirection;
 
 @end
+
+/** @}*/

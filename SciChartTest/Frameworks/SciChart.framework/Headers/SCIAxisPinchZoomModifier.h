@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIRelativeZoomModifierBase.h"
 
@@ -24,3 +28,5 @@
 @property (nonatomic, copy) NSString* axisId;
 
 @end
+
+/** @}*/

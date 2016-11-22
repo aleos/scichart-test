@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup SeriesInfo
+ *  @{
+ */
+
 #import <UIKit/UIKit.h>
 #import "SCITooltipDataView.h"
 
@@ -26,3 +30,5 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *dataWidthConstraint;
 
 @end
+
+/** @}*/

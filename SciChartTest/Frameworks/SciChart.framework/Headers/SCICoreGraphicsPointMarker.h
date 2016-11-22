@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup PointMarkers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIPointMarkerBase.h"
 #import <QuartzCore/QuartzCore.h>
@@ -17,3 +21,5 @@ typedef void (^SCIPointMarkerCoreGraphicsSetup) (CGContextRef context, CGRect ar
 @property (nonatomic, copy) SCIPointMarkerCoreGraphicsSetup drawingCall;
 
 @end
+
+/** @}*/

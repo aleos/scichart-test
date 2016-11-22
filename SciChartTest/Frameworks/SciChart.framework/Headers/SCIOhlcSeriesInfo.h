@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup SeriesInfo
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCISeriesInfo.h"
 
@@ -24,3 +28,5 @@
 
 
 @end
+
+/** @}*/

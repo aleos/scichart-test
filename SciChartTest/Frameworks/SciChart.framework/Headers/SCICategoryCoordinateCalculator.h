@@ -19,3 +19,5 @@
 //int TransformDataToIndex(DateTime dataValue, SearchMode searchMode);
 
 @end
+
+/** @}*/

@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCICallbackHelper.h"
 
@@ -20,3 +24,5 @@ typedef void (^SCIAxisVisibleRangeChanged) (id<SCIRange> newRange, id<SCIRange> 
 @property (nonatomic, copy) SCIAxisVisibleRangeChanged callback;
 
 @end
+
+/** @}*/

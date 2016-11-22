@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIAxisDragModifierBase.h"
 
@@ -16,3 +20,5 @@
 @interface SCIYAxisDragModifier : SCIAxisDragModifierBase
 
 @end
+
+/** @}*/

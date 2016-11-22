@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup HitTest
+ *  @{
+ */
+
 #import "SCIGenericType.h"
 
 @protocol SCIRenderPassData;
@@ -57,3 +61,5 @@ typedef struct {
 -(HitTestResult) hitTestVerticalInterpolateModeAtX:(double)x Y:(double)y Radius:(double)radius onData:(id<SCIRenderPassData>)data;
 
 @end
+
+/** @}*/

@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup PointMarkers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIPointMarkerBase.h"
 
@@ -16,3 +20,5 @@
 @property (nonatomic, strong) id<SCITexturedBrush> brush;
 
 @end
+
+/** @}*/

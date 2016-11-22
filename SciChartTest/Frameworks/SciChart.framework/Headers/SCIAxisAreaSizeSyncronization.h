@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 
 typedef NS_OPTIONS(NSUInteger, SCIAxisSizeSyncMode) {
@@ -25,3 +29,5 @@ typedef NS_OPTIONS(NSUInteger, SCIAxisSizeSyncMode) {
 @property (nonatomic) SCIAxisSizeSyncMode syncMode;
 
 @end
+
+/** @}*/

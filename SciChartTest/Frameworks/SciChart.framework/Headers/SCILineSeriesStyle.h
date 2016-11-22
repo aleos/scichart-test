@@ -6,8 +6,13 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Themes
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCICallbackBlock.h"
+#import "SCIStyle.h"
 
 @protocol SCIPen2D;
 @protocol SCIPointMarker;
@@ -15,48 +20,57 @@
 
 /*!
  * @brief The SCILineSeriesStyle class.
- * @discussion Provides styling capabilities for SCIFastLineRenderableSeries within SciChart.
+ * @discussion Provides styling capabilities for SCIFastLineRenderableSeries
+ * @see SCIFastLineRenderableSeries
  */
-@interface SCILineSeriesStyle : NSObject <NSCopying>
+@interface SCILineSeriesStyle : NSObject <SCIStyle, NSCopying>
 
 /*!
- * @brief The SCILineSeriesStyle class' property.
- * @discussion Defines Line's Pen.
+ * @brief Defines line series color and thickness
+ * @code
+ * style.linePen = SCIPenSolid(colorCode: 0xFF00A0FF, width: 1)
+ * @encode
+ * @see SCIPen2D
  */
 @property (nonatomic, strong) id<SCIPen2D> linePen;
 
 /*!
- * @brief The SCILineSeriesStyle class' property.
- * @discussion If true acts like a digital line.
+ * @brief If true acts like a digital line
  */
 @property (nonatomic) BOOL isDigitalLine;
 
 /*!
- * @brief The SCILineSeriesStyle class' property.
- * @discussion If true draws PointMarkers, otherwise skips the step.
+ * @brief If true draws PointMarkers at data points, otherwise skips the step.
  */
 @property (nonatomic) BOOL drawPointMarkers;
 
 /*!
- * @brief The SCILineSeriesStyle class' property.
- * @discussion Gets or sets a PointMarker property.
+ * @brief Gets or sets a point marker
+ * @discussion Point markers will be displayed at data points if drawPointMarkers is set to true
+ * @code
+ * let marker = SCIEllipsePointMarker()
+ * marker.drawBorder = false
+ * marker.fillBrush = SCIBrushSolid(color: UIColor.redColor())
+ * lineSeries.style.pointMarker = marker
+ * @endcode
+ * @see SCIPointMarker
  */
 @property (nonatomic, strong) id<SCIPointMarker> pointMarker;
 
 /*!
- * @brief The SCILineSeriesStyle class' property.
+ * @brief Point marker drawing optimization
+ * @discussion For internal use
+ * @see SCIPointMarkerClusterizer
  */
 @property (nonatomic, strong) SCIPointMarkerClusterizer * cluster;
 
 /*!
- * @brief The SCILineSeriesStyle class' property.
+ * @brief Culling distance of tightly packed point markers
+ * @discussion Distance in pixels on screen at which point markers will be culled.
+ * @discussion Default value is 2. Bigger value can create noticable gaps, smaller will hit performance
  */
 @property (nonatomic) float clusterSpacing;
 
-/*!
- * @brief The SCILineSeriesStyle class' property.
- * @discussion Called whenever LineSeries style was changed.
- */
-@property (nonatomic, copy) SCIActionBlock styleChanged;
-
 @end
+
+/** @} */

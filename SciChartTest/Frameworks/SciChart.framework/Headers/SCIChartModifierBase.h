@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIChartModifier.h"
 
@@ -35,3 +39,5 @@
 @property (nonatomic) BOOL autoPassAreaCheck;
 
 @end
+
+/** @}*/

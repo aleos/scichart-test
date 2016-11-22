@@ -6,6 +6,10 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <UIKit/UIKit.h>
 
 @class SCITextFormattingStyle;
@@ -20,3 +24,5 @@
 -(CGSize) getTransformedViewSize:(UIView*)view;
 
 @end
+
+/** @}*/

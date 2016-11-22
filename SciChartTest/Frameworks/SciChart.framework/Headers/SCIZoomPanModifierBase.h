@@ -6,11 +6,15 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
-#import "SCIChartModifierBase.h"
+#import "SCIGestureModifier.h"
 #import "SCIEnumerationConstants.h"
 
-@interface SCIZoomPanModifierBase : SCIChartModifierBase
+@interface SCIZoomPanModifierBase : SCIGestureModifier
 
 @property (nonatomic) SCIXYDirection xyDirection;
 @property (nonatomic) SCIZoomPanClipMode clipModeX;
@@ -21,3 +25,5 @@
 @property (nonatomic, readonly) BOOL gestureLocked;
 
 @end
+
+/** @}*/

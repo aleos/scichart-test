@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCITimeSpanAxisBase.h"
 
@@ -16,3 +20,5 @@
 @property (nonatomic, copy) NSString * decadesTextFormatting;
 
 @end
+
+/** @}*/

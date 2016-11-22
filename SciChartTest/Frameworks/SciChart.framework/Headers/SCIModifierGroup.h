@@ -6,12 +6,16 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
-#import "SCIChartModifierBase.h"
+#import "SCIGestureModifier.h"
 
-@interface SCIModifierGroup : SCIChartModifierBase
+@interface SCIModifierGroup : SCIGestureModifier
 
--(id) initWithChildModifiers:(NSArray*)childModifiers;
+-(id) initWithChildModifiers:(NSArray<id<SCIChartModifier>>*)childModifiers;
 
 -(void) addItem:(id<SCIChartModifier>)item;
 -(void) removeItem:(id<SCIChartModifier>)item;
@@ -21,3 +25,5 @@
 -(id<SCIChartModifier>) itemAt:(int)index;
 
 @end
+
+/** @}*/

@@ -6,8 +6,13 @@
 //  Copyright © 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Themes
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCICallbackBlock.h"
+#import "SCIStyle.h"
 
 @protocol SCIPointMarker;
 @class SCIPointMarkerClusterizer;
@@ -15,29 +20,37 @@
 /*!
  * @brief The SCIScatterSeriesStyle class.
  * @discussion Provides styling capabilities for SCIFastOhlcRenderableSeries within SciChart.
+ * @see SCIFastOhlcRenderableSeries
  */
-@interface SCIScatterSeriesStyle : NSObject <NSCopying>
+@interface SCIScatterSeriesStyle : NSObject <SCIStyle, NSCopying>
 
 /*!
- * @brief The SCIScatterSeriesStyle class' property.
- * @discussion Gets or sets SCIScatterSeriesStyle PointMarker.
+ * @brief Gets or sets a point marker
+ * @discussion Point markers will be displayed at data points if drawPointMarkers is set to true
+ * @code
+ * let marker = SCIEllipsePointMarker()
+ * marker.drawBorder = false
+ * marker.fillBrush = SCIBrushSolid(color: UIColor.redColor())
+ * series.style.pointMarker = marker
+ * @endcode
+ * @see SCIPointMarker
  */
 @property (nonatomic, strong) id<SCIPointMarker> pointMarker;
 
 /*!
- * @brief The SCIScatterSeriesStyle class' property.
+ * @brief Point marker drawing optimization
+ * @discussion For internal use
+ * @see SCIPointMarkerClusterizer
  */
 @property (nonatomic, strong) SCIPointMarkerClusterizer * cluster;
 
 /*!
- * @brief The SCIScatterSeriesStyle class' property.
+ * @brief Culling distance of tightly packed point markers
+ * @discussion Distance in pixels on screen at which point markers will be culled.
+ * @discussion Default value is 2. Bigger value can create noticable gaps, smaller will hit performance
  */
 @property (nonatomic) float clusterSpacing;
 
-/*!
- * @brief The SCIScatterSeriesStyle class' property.
- * @discussion Called whenever SCIScatterSeries Style was changed.
- */
-@property (nonatomic, copy) SCIActionBlock styleChanged;
-
 @end
+
+/** @} */

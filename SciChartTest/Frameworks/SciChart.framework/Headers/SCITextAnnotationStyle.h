@@ -6,21 +6,31 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Themes
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCICallbackBlock.h"
+#import "SCIStyle.h"
 
-@class UITextField;
+@class UITextView;
 @class SCITextFormattingStyle;
 @class UIColor;
 
-typedef void (^SCITextAnnotationViewSetupBlock) (UITextField * view);
+/**
+ * @abstract block which is used for additional text view setup
+ * @discussion this block will be called after all other style options applied
+ * @param view UITextView in which text is displayed
+ */
+typedef void (^SCITextAnnotationViewSetupBlock) (UITextView * view);
 
 /*!
  * @abstract SCITextAnnotationStyle class
  * @discussion Contains properties for text annotation theming and customization
- * @discussion It signals about properties changes with "styleChanged" block
+ * @see SCITextAnnotation
  */
-@interface SCITextAnnotationStyle : NSObject <NSCopying>
+@interface SCITextAnnotationStyle : NSObject <SCIStyle, NSCopying>
 
 /*!
  * @abstract Defines text annotation text formatting style.
@@ -33,6 +43,7 @@ typedef void (^SCITextAnnotationViewSetupBlock) (UITextField * view);
  * @abstract Defines text annotation text color
  */
 @property (nonatomic, strong) UIColor * textColor;
+
 /*!
  * @abstract Defines text annotation background color
  */
@@ -41,13 +52,10 @@ typedef void (^SCITextAnnotationViewSetupBlock) (UITextField * view);
 /*!
  * @abstract viewSetup block used for additional customization of text annotation
  * @discussion Type: void (^SCITextAnnotationViewSetupBlock) (UITextField * view)
+ * @see SCITextAnnotationViewSetupBlock
  */
 @property (nonatomic, copy) SCITextAnnotationViewSetupBlock viewSetup;
 
-/*!
- * @abstract Block wich is called on every style property change.
- * @discussion It is used for invalidating parent annotation and provoking redraw of annotations and modifiers on style change
- */
-@property (nonatomic, copy) SCIActionBlock styleChanged;
-
 @end
+
+/** @}*/

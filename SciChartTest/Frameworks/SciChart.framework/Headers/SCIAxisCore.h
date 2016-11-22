@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIInvalidatableElement.h"
 #import "SCIGenericType.h"
@@ -41,6 +45,7 @@ typedef NS_ENUM(NSInteger, SCIAutoRangeMode) {
 
 @property (nonatomic, copy) NSString * textFormatting;
 @property (nonatomic) SCIGenericType minimalZoomConstrain;
+@property (nonatomic) SCIGenericType maximalZoomConstrain;
 @property (nonatomic) NSInteger minorsPerMajor;
 @property (nonatomic) NSInteger maxAutoTicks;
 @property (nonatomic) BOOL autoTicks;
@@ -96,6 +101,7 @@ typedef NS_ENUM(NSInteger, SCIAutoRangeMode) {
 @property (nonatomic) BOOL flipCoordinates;
 @property (nonatomic, copy) NSString * textFormatting;
 @property (nonatomic) SCIGenericType minimalZoomConstrain;
+@property (nonatomic) SCIGenericType maximalZoomConstrain;
 @property (nonatomic) NSInteger minorsPerMajor; // minor ticks count between major ticks
 @property (nonatomic) NSInteger maxAutoTicks; // max amount of major ticks
 @property (nonatomic) BOOL autoTicks; // if disabled minorDelta and majorDelta are not calculated and have to be set manually
@@ -126,3 +132,5 @@ typedef NS_ENUM(NSInteger, SCIAutoRangeMode) {
 - (UIView*)titleCustomView;
 
 @end
+
+/** @}*/

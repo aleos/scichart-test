@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIEnumerationConstants.h"
 
@@ -34,3 +38,5 @@
 -(id)initWithCoordinateCalculator:(id<SCICoordinateCalculator>)coordCalculator;
 
 @end
+
+/** @}*/

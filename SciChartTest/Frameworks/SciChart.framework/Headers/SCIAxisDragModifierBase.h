@@ -6,8 +6,12 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup ChartModifiers
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
-#import "SCIChartModifierBase.h"
+#import "SCIGestureModifier.h"
 #import "SCIEnumerationConstants.h"
 
 @protocol SCIRange;
@@ -17,7 +21,7 @@
  * @brief The SCIAxisDragModifierBase class.
  * @discussion Provides base class for dragging operations on axes.
  */
-@interface SCIAxisDragModifierBase : SCIChartModifierBase
+@interface SCIAxisDragModifierBase : SCIGestureModifier
 
 /*!
  * @brief The SCIAxisDragModifierBase class' property.
@@ -65,3 +69,5 @@
 -(void) performScaleFrom:(CGPoint)lastPoint To:(CGPoint)currentPoint IsSecondHalf:(BOOL)isSecondHalf;
 
 @end
+
+/** @}*/

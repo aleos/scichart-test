@@ -6,6 +6,10 @@
 //  Copyright © 2016 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup CoordinateCalculators
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCICoordinateCalculatorBase.h"
 #import "SCILogarithmicCoordinateCalculator.h"
@@ -21,3 +25,5 @@
 @property (nonatomic) double coordinatesOffset;
 
 @end
+
+/** @}*/

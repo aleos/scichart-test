@@ -7,22 +7,30 @@
 //
 
 #import <Foundation/Foundation.h>
-@protocol ISeriesColumn;
+#import "SCIArrayControllerProtocol.h"
 
 @protocol SCIDataDistributionCalculator <NSObject>
 
 @required
--(BOOL) dataIsSortedAscending;
--(BOOL) dataIsEvenlySpaced;
 
--(void) onAppendXColumn:(id<ISeriesColumn>)xValues WithValue:(NSNumber*)newValue acceptUnsorted:(BOOL)acceptUnsorted;
--(void) onAppendXColumn:(id<ISeriesColumn>)xValues WithValues:(NSNumber*)newValue Count:(int)count acceptUnsorted:(BOOL)acceptUnsorted;
+- (BOOL)dataIsSortedAscending;
 
--(void) onInsertToXColumn:(id<ISeriesColumn>)xValues AtIndex:(int)index Value:(NSNumber*)newValue acceptUnsorted:(BOOL)acceptUnsorted;
--(void) onInsertToXColumn:(id<ISeriesColumn>)xValues AtIndex:(int)index Values:(NSNumber*)newValue Count:(int)count acceptUnsorted:(BOOL)acceptUnsorted;
+- (BOOL)dataIsEvenlySpaced;
 
--(void) updateDataDistributionFlagsWhenRemovedXValues;
+- (void)clear;
 
--(void) clear;
+- (void)onAppendValueInArrayController:(id<SCIArrayControllerProtocol>)array
+                              andCount:(int)count
+                   acceptsUnsortedData:(BOOL)acceptsUnsortedData;
+
+- (void)onUpdateValueInArrayController:(id<SCIArrayControllerProtocol>)array
+                               atIndex:(int)atIndex
+                   acceptsUnsortedData:(BOOL)acceptsUnsortedData;
+
+- (void)onInsertValueInArrayController:(id<SCIArrayControllerProtocol>)array
+                               atIndex:(int)atIndex
+                              andCount:(int)count
+                   acceptsUnsortedData:(BOOL)acceptsUnsortedData;
+
 
 @end

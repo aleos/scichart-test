@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Visuals
+ *  @{
+ */
+
 #import "SCIInvalidatableElement.h"
 
 @protocol SCIAxis2D;
@@ -45,3 +49,5 @@
 -(id<SCIRange>) onCalculateNewYRange:(id<SCIAxis2D>)yAxis RenderPassInfo:(SCIRenderPassInfo*)renderPassInfo;
 
 @end
+
+/** @}*/

@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Axis
+ *  @{
+ */
+
 #ifndef SciChart_AxisEnums_h
 #define SciChart_AxisEnums_h
 
@@ -18,3 +22,5 @@ typedef NS_ENUM(NSInteger, SCIAxisAlignmentMode) {
 };
 
 #endif
+
+/** @}*/

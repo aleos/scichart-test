@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 SciChart Ltd. All rights reserved.
 //
 
+/** \addtogroup Ranges
+ *  @{
+ */
+
 #import <Foundation/Foundation.h>
 #import "SCIGenericType.h"
 
@@ -51,3 +55,5 @@ typedef NS_ENUM(NSInteger, SCIRangeType) {
 -(id<SCIRange>) growMinBy:(SCIGenericType)minFraction MaxBy:(SCIGenericType)maxFraction isLogarithmic:(BOOL)isLogarithmic LogBase:(double)logBase;
 
 @end
+
+/** @}*/
